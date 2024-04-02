@@ -1,0 +1,255 @@
+Artigo como Trabalhar com Imagens
+
+Muito bom, pessoal. Continuando aqui o nosso treinamento, vamos falar agora de como a gente pode fazer para incluir imagens nos nossos arquivos HTML.
+
+Basicamente, nós temos duas formas de incluir imagens no nosso HTML. Nós podemos tanto utilizar a tag HTML para incluir imagens e também nós podemos utilizar as propriedades de CSS para colocar imagens de fundo.
+
+Por exemplo, a tag é `<img>`.
+
+Esta tag daqui, ela requer pelo menos dois atributos: o `src`, que é a origem da imagem, ou seja, o caminho para encontrar o arquivo de imagem do nosso site.
+
+Lembre-se que quando eu falo em site, na verdade o que estou falando é um diretório no nosso computador onde eu vou incluir todos os arquivos lá dentro. Então, todos os arquivos HTML, arquivos CSS, e se tivesse arquivo JavaScript, e agora arquivos de imagem, então tudo tem que estar dentro desse diretório, bacana?
+
+E nós temos também o atributo `alt`, que significa texto alternativo. Seria esse atributo aqui?
+
+E para que ele é usado? Para que serve esse atributo?
+
+O `alt`? Esse atributo ele tem três principais objetivos.
+
+O primeiro deles é o texto que estiver inserido dentro deste atributo.
+
+O `alt` será visualizado pelo usuário caso ocorra algum problema com o download da imagem.
+
+Então, se você incluir um atributo `alt`, um valor para o atributo `alt` e por algum motivo essa imagem não puder ser carregada, o usuário final vai ler o que está escrito no texto alternativo.
+
+O outro objetivo que esse atributo cumpre é com relação à acessibilidade. Por quê? Porque uma pessoa que possui algum tipo de deficiência visual e não consegue visualizar a imagem, ela na verdade vai ouvir o que estiver dentro desse atributo `alt`. Então, você vai colocar um texto descritivo que representa o que está naquela imagem e o que está sendo visualizado naquela imagem.
+
+Por exemplo, é uma pessoa que possui algum tipo de deficiência visual? Vai ouvir esse texto, tá?
+
+Então, imagina que você tem uma imagem lá de, sei lá, de um rapaz lavando o carro, por exemplo. O que você vai colocar exatamente no atributo `alt`? É exatamente o texto, esse texto que representa o que esta imagem está mostrando.
+
+Basicamente, é isso.
+
+E uma outra questão também que você vai utilizar o atributo `alt` é por questões de SEO, ou seja, Search Engine Optimization.
+
+Otimização para site de busca. Você vai incluir um valor para o atributo `alt` por questões de que vai facilitar que a sua página, o seu site, apareça nos resultados de busca lá do Google.
+
+Bacana é a outra forma da gente incluir imagens com o nosso CSS.
+
+A gente vai incluir então esta propriedade, `background-image`, e vai colocar aqui o valor `URL`.
+
+Abre e fecha parêntese e vai incluir o caminho da nossa imagem, tá?
+
+É só um detalhe muito importante aqui que eu vejo muitas pessoas cometerem. Inclui um espaço depois do `URL` e antes do parêntese. Se você incluir o espaço, a sua imagem não vai aparecer, então fica esperto, fica esperta com isso.
+
+`URL` abre parênteses sem nenhum espaço antes aqui.
+
+Bacana, pessoal.
+
+E aí você pode ter uma questão: qual é a melhor? O que eu devo fazer? Eu devo incluir imagem com HTML, ou seja, com a tag `img`, ou com CSS utilizando a propriedade `background-image`?
+
+Aí eu vou te responder com uma outra pergunta.
+
+Eu quero saber o seguinte: para que serve o HTML?
+
+O HTML não é conteúdo, então se o HTML é conteúdo, você vai utilizar o HTML para representar, para inserir imagem que está relacionada ao conteúdo.
+
+Imagina, por exemplo, uma reportagem de um jornal, por exemplo? Então você tem ali ou um blog, por exemplo, você tem uma matéria dentro de um blog e você vai incluir uma imagem que representa, que mostra ou que faz parte do seu conteúdo principal.
+
+Então, o ideal é que você insira essa imagem utilizando a tag `<img>` do seu HTML.
+
+Por outro lado, existem imagens que são meramente decorativas, que fazem parte do design e não do conteúdo em si.
+
+Então, se o CSS ele é responsável pela parte visual, pelo design da sua página, se esta imagem for meramente decorativa, você vai
+
+ incluir utilizando o `background-image` do CSS.
+
+Em alguns casos, você até pode incluir imagens decorativas utilizando a tag `<img>`, porém, nesses casos, o que você vai fazer é incluir essa imagem decorativa, mas vai incluir o atributo `alt` vazio. Aliás, essa é uma outra questão pessoal. Mesmo que você não tenha um texto descritivo para aquela imagem, inclua um `alt` vazio. O `alt` vazio é melhor do que não incluir o atributo `alt`, então pelos menos atributos você vai incluir o `src`, que é obrigatório, e o `alt`, que é o texto alternativo. E se você não tem o texto que vai, digamos assim, descrever o que está dentro dessa imagem, você vai incluir o atributo `alt` vazio.
+
+Bacana. Então, se essa imagem for meramente decorativa, se está relacionado à parte visual da sua página, você vai sim também incluir um `alt` vazio.
+
+Muito bem, indo para frente, eu quero falar qual é a diferença de uma imagem vetorial e uma imagem bitmap.
+
+Uma imagem rasterizada, tá bom?
+
+Uma imagem bitmap? Ela é formada por pequenos quadradinhos que são os pixels lá da nossa tela.
+
+Tá bom, do nosso monitor.
+
+Então, uma imagem bitmap, ela é formada por pixels. Cada pixel vai ter ali uma cor, uma tonalidade de cor.
+
+E aí, quando eu vejo esses pixels lado a lado, com várias tonalidades de cor, eu tenho a sensação de estar vendo uma imagem, por exemplo.
+
+Então, ela é muito comum nessas imagens bitmap. São muito comuns, por exemplo, para fotografias.
+
+Por outro lado, nós temos os vetores nas imagens vetoriais e, ao contrário do bitmap, onde eu formo uma imagem utilizando pequenos quadradinhos que são os pixels, numa imagem vetorial, eu construo essa imagem com base em cálculos matemáticos.
+
+Então, posição `x`, `y` e por aí vai.
+
+Tá, então é uma imagem vetorial. Ela normalmente ela tem de ser mais leve do que uma imagem bitmap.
+
+Por quê? Porque é mais fácil representar uma imagem com cálculos matemáticos do que com vários pixels um ao lado do outro.
+
+Mas isso, obviamente, eu estou falando de imagens, digamos assim, com poucos elementos, poucas cores e etc.
+
+E qual a vantagem de uma imagem vetorial e uma imagem bitmap?
+
+Uma imagem bitmap, como eu falei, era mais utilizada para incluir imagens, por exemplo, como uma fotografia ou imagens com muito detalhes, com muitas cores e muitos elementos.
+
+Já uma imagem vetorial, normalmente é usada para imagens com poucas cores e poucos elementos, e ela tende a ser mais leve e além disso, uma imagem vetorial ela pode ser escalonada, digamos assim.
+
+Eu posso pegar uma imagem vetorial e expandir e dar zoom nela que eu não vou visualizar esses pixels aqui.
+
+Ou seja, a imagem não vai perder definição.
+
+E isso é muito bom, especialmente quando a gente tem, digamos, dispositivos com uma resolução muito alta.
+
+Então, imagina que eu tenho uma imagem que no meu monitor, por exemplo, que tem uma resolução normal, digamos assim, ela é essa imagem, ela é visualizada perfeitamente.
+
+Agora, imagina que esta imagem seja aberta num dispositivo com uma resolução extremamente alta de 4K para cima.
+
+Provavelmente esta imagem bitmap ela vai aparecer desfocada.
+
+A pessoa vai ter a sensação de que está meio esfumaçado ali.
+
+E é justamente por causa disso, por causa da resolução. Se eu tivesse utilizando uma imagem vetorial, eu não teria essa percepção de perda de qualidade da imagem, porque isso é calculado com cálculos matemáticos.
+
+Horroroso.
+
+Mas essa imagem ela é reproduzida, melhor dizendo, com cálculos matemáticos.
+
+Então, ela não vai perder resolução nunca.
+
+Independente da resolução do monitor, do zoom que o usuário pode ter dado no browser e etc.
+
+Tá bom?
+
+Muito bem.
+
+Então, visto isso, vamos para frente.
+
+Eu quero falar quais são os tipos de imagem que nós temos.
+
+Então, nós temos aqui, por exemplo, uma imagem JPEG.
+
+Aqui eu tenho dois, duas extensões possíveis: `.jpg` e `.jpeg`.
+
+Qual é a diferença?
+
+Nenhuma.
+
+A única questão que você precisa ter atenção é que se no seu arquivo, no seu arquivo está com a extensão `.jpg`, no seu HTML ou no seu CSS, você precisa escrever essa extensão corretamente.
+
+`.jpg`.
+
+Se está `.jpeg`, você precisa escrever exatamente essa extensão, senão não vai funcionar.
+
+Uma imagem JPEG é uma imagem bitmap que vai, digamos, comprimir bastante essa imagem, tá
+
+?
+
+Então, na prática, a gente acaba perdendo um pouco de qualidade da imagem, mas a gente consegue arquivos muito menores em termos de kilobytes, tá bom.
+
+Nós temos também o formato PNG que é bastante utilizado, na qual a vantagem do PNG e do JPEG o PNG ele tende a ter um tamanho um pouco menor.
+
+Ele também vai servir para fotografias.
+
+Então, por exemplo, eu tenho uma imagem de uma fotografia.
+
+Eu posso tanto ter o JPEG, `.jpeg` ou `.jpg` bem comprimido, como eu também posso ter o PNG.
+
+A vantagem do PNG é que eu posso ter transparência e é uma transparência bem suave e uma transparência bem sutil.
+
+No caso do JPEG, não.
+
+Todos os pixels precisam ter uma cor.
+
+Pode ser uma cor preta, uma cor branca ou qualquer outra cor, mas eu preciso ter um pixel colorido.
+
+Já no caso do PNG não, eu consigo ter pixels além de todas as cores, obviamente, mas eu também consigo ter pixels com uma transparência, digamos, suave.
+
+Nós temos também o gif bacana, o que também é uma imagem bastante leve, porém ele é melhor utilizado quando eu tenho poucas cores.
+
+E no gif eu também tenho transparência, porém é uma transparência, digamos assim, dura ou é transparente ou não é transparente.
+
+Eu não tenho uma transição.
+
+Eu não tenho, por exemplo, 50% transparente.
+
+Como no PNG.
+
+Eu posso ter essa possibilidade no gif?
+
+Não.
+
+Se eu tenho um gif transparente, eu simplesmente removo o fundo, mas muito provavelmente, dependendo de onde eu incluir essa imagem gif, eu vejo alguns pixels a mais sobrando por causa disso, porque a transparência no gif é como se fosse zero em um.
+
+Então ou eu tenho transparência ou não tenho transparência e isso faz com que alguns pixels ali fiquem no meio, ali atrapalhando.
+
+Na imagem nós temos também o formato SVG, que é um formato vetorial, então o formato SVG é ideal.
+
+Quando eu tenho, por exemplo, o logotipo, se eu tiver um logotipo, por exemplo, com poucas cores, eu posso utilizar um SVG na arquivos de texto, por exemplo, eu posso ter um SVG ou qualquer arquivo com poucos detalhes visuais, poucas cores e tudo mais.
+
+Tá só relembrando, a vantagem da SVG é que o usuário vai poder dar zoom na sua página.
+
+Você não vai precisar se preocupar com a resolução do dispositivo, do usuário e tudo mais, tá?
+
+E aí nós temos outros dois formatos aqui: o webp e o avif são formatos mais novos.
+
+Eles são melhores, por exemplo, que o JPG e o PNG, porque eles conseguem também comprimir bastante a imagem.
+
+Também são imagens de bitmap, só que a vantagem deles eles conseguem reduzir bastante o tamanho final do arquivo.
+
+A taxa de compressão é maior sem perder qualidade da imagem.
+
+Não dá pra utilizar hoje em dia.
+
+Bacana, especialmente o AVIF.
+
+O suporte desse cara aqui é muito ruim ainda dos browsers, né?
+
+O WEBP ele até funciona em uns browsers mais modernos, mas eu ainda não tenho tanta confiança assim de utilizar esse cara.
+
+Esse aqui ainda vai precisar de um ou dois anos aí para a gente poder utilizar com mais segurança, tá?
+
+Eu vou mostrar aqui para vocês, olha só.
+
+Se eu digitar aqui, por exemplo, `caniuse.com` num site que vai me dizer quais as tecnologias eu posso usar dependendo do suporte que eu preciso dar nos browsers.
+
+E repara que o WEBP, apesar dele funcionar há bastante tempo no Chrome, aliás, o WEBP é uma tecnologia do Google, então por isso que ele funciona no Chrome há bastante tempo.
+
+Ele funciona no Chrome desde 2014, mas por exemplo, Firefox desde 2009 no Edge desde 2018.
+
+Enfim, daria até para usar já, mas eu ainda acabo preferindo utilizar o PNG e o JPEG.
+
+Daqui algum tempo esse cara vai ser bem mais comum da gente ver por aí.
+
+Tá bom?
+
+Não temos ainda suporte no Internet Explorer, mas tudo bem, ninguém liga no Firefox de 2018, ele também não funciona.
+
+Já tem quatro anos aí, tá.
+
+E o AVIF é muito pior ainda.
+
+O suporte.
+
+Ele não tem um suporte bom ainda, que nos garante que a gente possa utilizar.
+
+Por exemplo, no Edge ele não funciona e etc.
+
+Tá no Safari também não vai funcionar.
+
+Aliás, deixa eu ver o app aqui do Safari Web P.
+
+No Safari e no Safari.
+
+Ele funciona a partir da versão de 2020, porém com algumas restrições.
+
+Então olha que o número três ali tem alguma restrição no Mac, o S 11 também.
+
+Enfim, eu ainda prefiro optar por JPEG ou PNG, mas deixa esse cara na manga que num futuro muito próximo a gente já vai conseguir utilizar esta extensão aqui webp.
+
+Bacana pessoal, Então é isso, eu vou ficando por aqui.
+
+Um forte abraço e até o próximo vídeo.

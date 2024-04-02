@@ -1,0 +1,5 @@
+[ATUALIZAÇÃO] Formato WebP
+Segundo o site Can I Use já podemos utilizar o formato webP tranquilamente pois a adoção deste formato pelos navegadores está bastante avançada (em torno de 97.06%).
+
+O formato WebP é notável por oferecer uma compressão de imagem superior, tanto em modos com perda quanto sem perda, em comparação com formatos mais antigos como JPEG e PNG, além de suportar transparência e animação. Este suporte abrangente significa que a maioria dos usuários poderá visualizar imagens WebP sem problemas, permitindo que você aproveite os benefícios de tamanho de arquivo reduzido e carregamento mais rápido da página.
+
