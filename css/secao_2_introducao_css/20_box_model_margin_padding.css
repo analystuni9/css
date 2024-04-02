@@ -1,0 +1,63 @@
+/* Define o estilo para todos os parágrafos */
+p {
+    background-color: gainsboro; /* Define a cor de fundo */
+}
+
+/* Define o estilo para os títulos de nível 1 (h1) */
+h1 {
+    background-color: blueviolet; /* Define a cor de fundo */
+    padding-top: 1px; /* Define o preenchimento superior */
+    padding-right: 1px; /* Define o preenchimento direito */
+    padding-bottom: 1px; /* Define o preenchimento inferior */
+    padding-left: 1px; /* Define o preenchimento esquerdo */
+    padding: 5px 5px 5px 5px; /* Define o preenchimento em uma única linha (top, right, bottom, left) */
+}
+
+/* Define o estilo para os títulos de nível 2 (h2) */
+h2 {
+    background-color: yellowgreen; /* Define a cor de fundo */
+    width: 50%; /* Define a largura */
+    height: 50%; /* Define a altura */
+    margin-top: 1px; /* Define a margem superior */
+    margin-right: 1px; /* Define a margem direita */
+    margin-bottom: 1px; /* Define a margem inferior */
+    margin-left: 1px; /* Define a margem esquerda */
+    margin: 1px 2px 3px 4px; /* Define a margem em uma única linha (top, right, bottom, left) */
+    outline: 2px solid black; /* Define uma linha de contorno */
+}
+
+/* Define o estilo para o parágrafo com ID "p1" */
+#p1 {
+    background-color: red; /* Define a cor de fundo */
+    border-width: 2px; /* Define a largura da borda */
+    border-style: solid; /* Define o estilo da borda */
+    border-color: black; /* Define a cor da borda */
+    border: 2px solid black; /* Define a borda em uma única linha (largura, estilo, cor) */
+}
+
+/* Define o estilo para o parágrafo com ID "p2" */
+#p2 {
+    background-color: green; /* Define a cor de fundo */
+    border-width: 2px; /* Define a largura da borda */
+    border-style: solid; /* Define o estilo da borda */
+    border-color: black; /* Define a cor da borda */
+    border: 2px solid black; /* Define a borda em uma única linha (largura, estilo, cor) */
+}
+
+/* Define o estilo para o parágrafo com ID "p3" */
+#p3 {
+    background-color: blue; /* Define a cor de fundo */
+    border-width: 2px; /* Define a largura da borda */
+    border-style: solid; /* Define o estilo da borda */
+    border-color: black; /* Define a cor da borda */
+    border: 2px solid black; /* Define a borda em uma única linha (largura, estilo, cor) */
+}
+
+/* Define o estilo para o parágrafo com ID "p4" */
+#p4 {
+    background-color: orange; /* Define a cor de fundo */
+    border-width: 2px; /* Define a largura da borda */
+    border-style: solid; /* Define o estilo da borda */
+    border-color: black; /* Define a cor da borda */
+    border: 2px solid black; /* Define a borda em uma única linha (largura, estilo, cor) */
+}

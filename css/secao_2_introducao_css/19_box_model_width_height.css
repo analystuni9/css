@@ -1,0 +1,65 @@
+/* Define a família de fontes para o corpo do documento */
+body {
+    font-family: sans-serif;
+}
+
+/* Define o estilo para todos os elementos <p> */
+p {
+    background-color: #ccc; /* Define a cor de fundo como cinza claro */
+    margin-top: 0; /* Remove a margem superior */
+}
+
+/* Define o estilo para todos os elementos <h1> */
+h1 {
+    background-color: #a07c7c; /* Define a cor de fundo como marrom claro */
+    padding: 16px; /* Adiciona preenchimento */
+}
+
+/* Define o estilo para todos os elementos <h2> */
+h2 {
+    background-color: #37a951; /* Define a cor de fundo como verde */
+    margin-top: 56px; /* Adiciona margem superior */
+    border-bottom: 2px solid green; /* Adiciona uma borda inferior sólida */
+}
+
+/* Define o estilo para elementos com classe "destaque" */
+.destaque {
+    background-color: aquamarine; /* Define a cor de fundo como aquamarine */
+}
+
+/* Define o estilo para elementos com classe "size" */
+.size {
+    width: 50%; /* Define a largura como 50% do contêiner pai */
+    height: 100px; /* Define a altura como 100 pixels */
+}
+
+/* Define o estilo para elementos com classe "padding" */
+.padding {
+    padding: 26px; /* Adiciona preenchimento interno */
+}
+
+/* Define o estilo para elementos com classe "margin" */
+.margin {
+    margin: 50px 0 20px 100px; /* Define as margens */
+}
+
+/* Define o estilo para elementos com classe "border" */
+.border {
+    border-top-style: solid; /* Define o estilo da borda superior como sólido */
+    border-top-width: 10px; /* Define a largura da borda superior */
+    border-top-color: #287cac; /* Define a cor da borda superior */
+    border-right: 10px dotted red; /* Define a borda direita */
+    border-bottom: 10px dashed blue; /* Define a borda inferior */
+    border-left: 30px groove green; /* Define a borda esquerda */
+    padding: 10px; /* Adiciona preenchimento */
+}
+
+/* Define o estilo para elementos com classe "borda2" */
+.borda2 {
+    border: 5px dashed blue; /* Define uma borda de 5 pixels tracejada azul */
+}
+
+/* Define o estilo para elementos com classe "outline" */
+.outline {
+    outline: 5px dashed red; /* Define um contorno de 5 pixels tracejado vermelho */
+}

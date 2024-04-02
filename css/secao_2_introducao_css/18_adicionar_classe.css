@@ -1,0 +1,23 @@
+/* Define as propriedades de estilo para todos os elementos <p> */
+p {
+    color: red; /* Define a cor do texto como vermelho */
+    text-decoration: none; /* Remove sublinhado do texto */
+    font-variant: normal; /* Define a variação da fonte como normal */
+}
+
+/* Define as propriedades de estilo para todos os elementos <a> */
+a {
+    color: black; /* Define a cor do texto dos links como preto */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/* Define as propriedades de estilo para o elemento com ID "destaque" */
+#destaque {
+    color: orange; /* Define a cor do texto como laranja */
+}
+
+/* Define as propriedades de estilo para os elementos com classe "destaque" */
+.destaque {
+    color: #00696d; /* Define a cor do texto como um tom de verde azulado */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
