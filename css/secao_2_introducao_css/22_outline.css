@@ -1,0 +1,37 @@
+/* Estilo para elementos <h1> */
+h1 {
+
+    outline: 5px groove blue;
+}
+
+/* Estilo para elemento com ID 'p1' */
+#p1 {
+
+    outline: 5px dashed orange;
+}
+
+/* Estilo para elemento com ID 'p2' */
+#p2 {
+  
+    outline: 5px dashed greenyellow;
+}
+
+/* Estilo para elemento com ID 'p3' */
+#p3 {
+
+    outline: 5px dashed blueviolet;
+}
+
+/* Estilo para elemento com ID 'p4' */
+#p4 {
+
+    outline: 5px dashed red;
+}
+
+/* 
+A diferença entre 'border' e 'outline' é que 'border' define uma borda ao redor de um elemento e afeta o layout
+ do documento, enquanto 'outline' define uma linha ao redor de um elemento, mas não afeta o layout, ou seja, não 
+ ocupa espaço no layout e não altera as dimensões do elemento. 'Outline' é geralmente usado para destacar elementos,
+como em foco de entrada em formulários, e não para fins de layout.
+*/
+

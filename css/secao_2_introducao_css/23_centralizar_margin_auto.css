@@ -1,0 +1,21 @@
+/* Define as propriedades padrão para o corpo do documento */
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+}
+
+/* Estilo para os elementos <h1> */
+h1 {
+    width: 80%; /* Define a largura do h1 como 80% do seu contêiner pai */
+    background-color: red; /* Define a cor de fundo como vermelho */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e margens laterais como automática para centralizar horizontalmente */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo para os elementos <p> */
+p {
+    background-color: yellow; /* Define a cor de fundo como amarelo */
+    width: 90%; /* Define a largura do p como 90% do seu contêiner pai */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e margens laterais como automática para centralizar horizontalmente */
+}

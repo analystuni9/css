@@ -1,0 +1,26 @@
+/* Define estilos para o elemento com ID 'container' */
+#container {
+    width: 500px; /* Define a largura do contêiner como 500 pixels */
+    margin: 0 auto; /* Define margens automáticas para centralizar o contêiner horizontalmente */
+}
+
+/* Define estilos para todos os elementos <p> */
+p {
+    width: 500px; /* Define a largura de todos os parágrafos como 500 pixels */
+    background-color: teal; /* Define a cor de fundo como teal */
+}
+
+/* Define estilos para o elemento com ID 'p1' */
+#p1 {
+    border: 5px solid blue; /* Define uma borda sólida azul com 5 pixels de largura */
+    padding: 50px; /* Define um preenchimento interno de 50 pixels */
+    /* O box-sizing não está sendo aplicado aqui */
+}
+
+/* Define estilos para o elemento com ID 'p2' */
+#p2 {
+    box-sizing: content-box; /* Define o modelo de caixa como content-box */
+    border: 5px solid black; /* Define uma borda sólida preta com 5 pixels de largura */
+    padding: 50px; /* Define um preenchimento interno de 50 pixels */
+    box-sizing: border-box; /* Define novamente o modelo de caixa como border-box (essa regra substitui a anterior) */
+}

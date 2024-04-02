@@ -1,6 +1,67 @@
+/* Estilo para elementos <h1> */
 h1 {
-    border-top:5px solid red;
-    border-right:5px dashed green;
-    border-bottom:5px dotted blue;
-    border-left:5px groove yellow;
+    /* Borda superior: 5px sólida vermelha */
+    border-top: 5px solid red;
+    /* Borda direita: 5px tracejada verde */
+    border-right: 5px dashed green;
+    /* Borda inferior: 5px pontilhada azul */
+    border-bottom: 5px dotted blue;
+    /* Borda esquerda: 5px sulcada amarela */
+    border-left: 5px groove yellow;
+}
+
+/* Estilo para elemento com ID 'p1' */
+#p1 {
+    /* Borda superior: 5px sólida vermelha */
+    border-top: 5px solid red;
+    /* Borda direita: 5px tracejada verde */
+    border-right: 5px dashed green;
+    /* Borda inferior: 5px pontilhada azul */
+    border-bottom: 5px dotted blue;
+    /* Borda esquerda: 5px sulcada amarela */
+    border-left: 5px groove yellow;
+    /* Sobrescrevendo estilos de borda anteriores com uma borda tracejada laranja */
+    border: 5px dashed orange;
+}
+
+/* Estilo para elemento com ID 'p2' */
+#p2 {
+    /* Borda superior: 5px sólida vermelha */
+    border-top: 5px solid red;
+    /* Borda direita: 5px tracejada verde */
+    border-right: 5px dashed green;
+    /* Borda inferior: 5px pontilhada azul */
+    border-bottom: 5px dotted blue;
+    /* Borda esquerda: 5px sulcada amarela */
+    border-left: 5px groove yellow;
+    /* Sobrescrevendo estilos de borda anteriores com uma borda tracejada greenyellow */
+    border: 5px dashed greenyellow;
+}
+
+/* Estilo para elemento com ID 'p3' */
+#p3 {
+    /* Borda superior: 5px sólida vermelha */
+    border-top: 5px solid red;
+    /* Borda direita: 5px tracejada verde */
+    border-right: 5px dashed green;
+    /* Borda inferior: 5px pontilhada azul */
+    border-bottom: 5px dotted blue;
+    /* Borda esquerda: 5px sulcada amarela */
+    border-left: 5px groove yellow;
+    /* Sobrescrevendo estilos de borda anteriores com uma borda tracejada blueviolet */
+    border: 5px dashed blueviolet;
+}
+
+/* Estilo para elemento com ID 'p4' */
+#p4 {
+    /* Borda superior: 5px sólida vermelha */
+    border-top: 5px solid red;
+    /* Borda direita: 5px tracejada verde */
+    border-right: 5px dashed green;
+    /* Borda inferior: 5px pontilhada azul */
+    border-bottom: 5px dotted blue;
+    /* Borda esquerda: 5px sulcada amarela */
+    border-left: 5px groove yellow;
+    /* Sobrescrevendo estilos de borda anteriores com uma borda tracejada vermelha */
+    border: 5px dashed red;
 }
