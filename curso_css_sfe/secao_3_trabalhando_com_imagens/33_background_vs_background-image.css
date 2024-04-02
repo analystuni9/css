@@ -1,0 +1,31 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a família da fonte para o corpo */
+    font-size: 200%; /* Define o tamanho da fonte para o corpo */
+    line-height: 2; /* Define a altura da linha para o corpo */
+    color: royalblue; /* Define a cor do texto para o corpo */
+    
+    /* 
+    Define o plano de fundo usando a propriedade background.
+    Esta propriedade permite especificar várias características do plano de fundo em uma única declaração.
+    */
+    /* 
+    background: Esta é uma propriedade CSS abrangente que permite definir várias características do plano de fundo de um elemento em uma única declaração. 
+    Ela inclui a imagem de fundo, a cor de fundo, a repetição da imagem, a fixação da imagem, entre outras propriedades. 
+    Aqui está um exemplo de como usar a propriedade background:
+    */
+    background: url(imagens/bg.jpg) chocolate no-repeat fixed; 
+    /* 
+    No caso deste exemplo:
+    - url(imagens/bg.jpg): define a imagem de fundo usando a propriedade background-image.
+    - chocolate: define uma cor de fundo como fallback caso a imagem não seja carregada.
+    - no-repeat: especifica que a imagem de fundo não será repetida.
+    - fixed: indica que a imagem de fundo permanecerá fixa enquanto o conteúdo da página é rolado.
+    */
+}
+
+/* Estilo para os parágrafos */
+p {
+    /* Define a margem superior para os parágrafos */
+    margin-top: 150px;
+}

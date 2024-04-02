@@ -1,0 +1,50 @@
+/* Estilo para o corpo da página */
+body {
+    font-size: 22px; /* Define o tamanho da fonte */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família da fonte */
+    width: 700px; /* Define a largura máxima do corpo */
+    margin: auto; /* Centraliza o corpo na página */
+
+    background-image: url(imagens/bg.jpg); /* Define uma imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-attachment: fixed; /* Fixa a imagem de fundo */
+    background-size: cover; /* Redimensiona a imagem de fundo para cobrir toda a área */
+    background-position: right bottom; /* Posiciona a imagem de fundo no canto inferior direito */
+}
+
+/* Estilo para os parágrafos */
+p {
+    line-height: 1.5; /* Define o espaçamento entre as linhas */
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Estilo para a classe de imagem "img-logo" */
+.img-logo {
+    width: 400px; /* Define a largura da imagem */
+}
+
+/* Estilo para a classe de imagem "img-html" */
+.img-html {
+    float: left; /* Alinha a imagem à esquerda */
+}
+
+/* Estilo para a classe de imagem "img-css" */
+.img-css {
+    float: right; /* Alinha a imagem à direita */
+}
+
+
+/* background-color: Define a cor de fundo do elemento. Esta propriedade é usada para definir uma cor sólida como fundo.
+
+background-image: Especifica uma ou mais imagens a serem usadas como fundo para o elemento. Você pode definir múltiplas imagens separadas por vírgulas, e o navegador tentará exibir cada uma delas.
+
+background-repeat: Controla como a imagem de fundo será repetida no elemento. Pode ser definido como repeat, repeat-x, repeat-y ou no-repeat. repeat repete a imagem tanto horizontal quanto verticalmente, repeat-x repete apenas horizontalmente, repeat-y repete apenas verticalmente, e no-repeat exibe a imagem uma única vez.
+
+background-attachment: Define se a imagem de fundo rola com o conteúdo do elemento ou permanece fixa enquanto o conteúdo rola. Pode ser scroll, fixed ou local. scroll faz com que a imagem role com o conteúdo, fixed fixa a imagem no lugar enquanto o conteúdo rola, e local faz com que a imagem role apenas com o elemento em si, independentemente do conteúdo.
+
+background-position: Controla a posição inicial da imagem de fundo dentro do elemento. Você pode definir a posição horizontal e vertical usando palavras-chave como left, right, center, top, bottom, ou valores específicos como porcentagens ou pixels.
+
+background-size: Define o tamanho da imagem de fundo. Pode ser definido como auto, cover, contain ou valores específicos de largura e altura. auto mantém o tamanho original da imagem, cover redimensiona a imagem para cobrir toda a área do elemento, contain redimensiona a imagem para caber dentro do elemento sem cortar ou distorcer, e você também pode especificar valores de largura e altura em pixels ou porcentagens.
+
+Essas são as principais propriedades da propriedade background em CSS, que são usadas para controlar a aparência do fundo de um elemento HTML. Elas oferecem uma ampla gama de opções para personalizar o fundo de acordo com suas necessidades de design.
+ */
