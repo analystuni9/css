@@ -1,0 +1,38 @@
+/* Define a fonte padrão para todo o corpo e a largura do corpo como 90% da largura do viewport */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+    width: 90%; /* Define a largura do corpo como 90% da largura do viewport */
+}
+
+/* Define o estilo para os itens de lista em listas não ordenadas (ul) */
+ul li {
+    list-style-type: square; /* Define o marcador de lista como um quadrado */
+    list-style-position: outside; /* Define a posição do marcador de lista como fora do conteúdo */
+    /* color: red; */ /* Comentado: essa linha estava definindo a cor do texto dos itens de lista como vermelho */
+}
+
+/* Define o estilo para os itens de lista em listas ordenadas (ol) */
+ol li {
+    list-style-type: lower-roman; /* Define o marcador de lista como números romanos minúsculos (i, ii, iii, etc.) */
+}
+
+/* A propriedade `list-style-type` é usada para definir o estilo do marcador de lista (ou bullet) em elementos de lista `<ul>` e `<ol>`. Aqui estão algumas das principais opções para esta propriedade:
+
+1. `none`: Remove o marcador de lista.
+2. `disc`: Define o marcador de lista como um círculo sólido.
+3. `circle`: Define o marcador de lista como um círculo vazio.
+4. `square`: Define o marcador de lista como um quadrado.
+5. `decimal`: Define o marcador de lista como números decimais (1, 2, 3, etc.) em listas ordenadas `<ol>`.
+6. `decimal-leading-zero`: Similar a `decimal`, mas adiciona um zero à esquerda para números de um único dígito (01, 02, 03, etc.).
+7. `lower-roman`: Define o marcador de lista como números romanos minúsculos (i, ii, iii, etc.).
+8. `upper-roman`: Define o marcador de lista como números romanos maiúsculos (I, II, III, etc.).
+9. `lower-alpha`: Define o marcador de lista como letras minúsculas (a, b, c, etc.).
+10. `upper-alpha`: Define o marcador de lista como letras maiúsculas (A, B, C, etc.).
+11. `decimal-inside`: Igual a `decimal`, mas os números aparecem dentro do contêiner, alinhados com o conteúdo.
+12. `decimal-leading-zero-inside`: Similar a `decimal-leading-zero`, mas os números aparecem dentro do contêiner, alinhados com o conteúdo.
+13. `lower-roman-inside`: Igual a `lower-roman`, mas os números aparecem dentro do contêiner, alinhados com o conteúdo.
+14. `upper-roman-inside`: Igual a `upper-roman`, mas os números aparecem dentro do contêiner, alinhados com o conteúdo.
+15. `lower-alpha-inside`: Igual a `lower-alpha`, mas os números aparecem dentro do contêiner, alinhados com o conteúdo.
+16. `upper-alpha-inside`: Igual a `upper-alpha`, mas os números aparecem dentro do contêiner, alinhados com o conteúdo.
+
+Essas são algumas das opções mais comuns para a propriedade `list-style-type`. Cada uma delas oferece uma aparência diferente para os marcadores de lista. */

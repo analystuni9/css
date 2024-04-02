@@ -1,0 +1,46 @@
+/* Estilo para o corpo do documento */
+body {
+    width: 90%; /* Define a largura do corpo como 90% da largura do viewport */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão para o corpo do documento */
+}
+
+/* Estilo para o contêiner principal */
+#container {
+    margin: 0 auto; /* Centraliza o contêiner na horizontal */
+    padding: 10px; /* Adiciona espaço interno de 10 pixels ao contêiner */
+}
+
+/* Estilo para os títulos de nível 1 */
+h1 {
+    text-align: center; /* Centraliza o texto dos títulos de nível 1 */
+}
+
+/* Estilo para a lista não ordenada */
+ul {
+    width: 100%; /* Define a largura da lista como 100% do seu contêiner pai */
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    text-align: center; /* Centraliza o texto da lista */
+}
+
+/* Estilo para os itens de lista */
+li {
+    display: inline-block; /* Exibe os itens de lista em linha, permitindo que fiquem lado a lado */
+}
+
+/* Estilo para os links dentro dos itens de lista */
+li a {
+    display: inline-block; /* Exibe os links como elementos de bloco em linha */
+    text-align: center; /* Centraliza o texto dos links */
+    text-decoration: none; /* Remove a decoração de sublinhado dos links */
+    padding: 10px; /* Adiciona espaço interno de 10 pixels aos links */
+    margin-right: 10px; /* Adiciona margem à direita para separar os links */
+    background-color: #ccc; /* Define a cor de fundo padrão dos links */
+    color: #333; /* Define a cor do texto dos links */
+    line-height: normal; /* Garante que o texto dos links esteja centralizado verticalmente */
+}
+
+/* Estilo para os links quando o cursor está sobre eles */
+li a:hover {
+    background-color: orange; /* Altera a cor de fundo dos links quando o cursor está sobre eles */
+}

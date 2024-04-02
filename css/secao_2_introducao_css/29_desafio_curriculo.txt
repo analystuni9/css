@@ -1,0 +1,160 @@
+Imagem de referência para o desafio
+Escreva o HTML e o CSS para alcançar um resultado parecido com a imagem abaixo
+João da Silva
+
+Brasileiro, solteiro, 30 anos.
+
+
+
+Objetivo
+
+Front-End Developer, Desenvolvedor Front End, Webdesigner
+
+
+
+Experiência profissional
+
+UOL - 12/2014 até 02/2015 - 2 meses
+
+Analista Programador - 2 meses
+
+Desenvolvimento de aplicações web com HTML, CSS, AngularJS, Javascript, Ajax, Rest, JSON, PHP.
+
+
+
+Terra - 1 ano
+
+Desenvolvedor Front End - 1 ano
+
+Atuei como Desenvolvedor Front-End Pleno, participando ativamente em todos os projetos da empresa (aplicação WEB, aplicativo Mobile e Portais).
+
+
+
+Trabalhei efetivamente usando tecnologias como HTML5, CSS, AngularJS, Wordpress, PHP, JSON e Javascript.
+
+
+
+G1 - 6 meses
+
+Desenvolvedor Front End - 6 meses
+
+Trabalhando com portais, landing pages e eCommerce, codando manualmente HTML, CSS, JavaScript, trabalhando diretamente com a equipe de Back-End com PHP.
+
+
+
+Formação
+
+Graduação em Tecnologia da Informação
+
+01/2010 a 12/2012
+
+
+
+Faculdade qualquer uma
+
+
+
+Pós-graduação em Projetos computacionais em tecnologias front-end
+
+08/2014 a 12/2015
+
+
+
+Faculdade qualquer uma
+
+
+
+Cursos / Especializações
+
+Participação no evento Search Masters Brasil - São Paulo (2014).
+
+Certificação em Google Adwords - Google Partners Weekend (2015);
+
+HTML5
+
+serfrontend - 40h - 2022
+
+
+
+Javascript
+
+serfrontend - 40h - 2022
+
+
+
+CSS3
+
+serfrontend - 40h - 2022
+
+
+
+Idiomas
+
+Inglês: Básico
+
+Conteúdo do curso
+Reproduzir
+14. As Folhas de estilo em cascata
+27m
+Reproduzir
+15. Primeiras Regras de CSS
+29m
+Reproduzir
+16. Primeiras regras de CSS - parte 2
+8m
+Reproduzir
+17. 3 maneiras de incluir CSS
+11m
+Iniciar
+Teste 1: Quais as vantagens de vincular um arquivo .css externo?
+Reproduzir
+18. Adicionar classe
+20m
+Reproduzir
+19. Box Model - width e height
+12m
+Reproduzir
+20. Box Model - margin e padding
+13m
+Reproduzir
+21. Box Model - border
+9m
+Reproduzir
+22. Border - mão na massa
+7m
+Reproduzir
+23. Outline
+5m
+Reproduzir
+24. centralizar com margin: auto
+10m
+Reproduzir
+25. box-sizing
+9m
+Reproduzir
+26. propriedade display
+18m
+Reproduzir
+27. pseudo-classes em links
+16m
+Reproduzir
+28. list-style
+9m
+Reproduzir
+29. Desafio Curriculo
+2m
+Iniciar
+30. Imagem de referência para o desafio
+1m
+Reproduzir
+31. Resolução do Desafio - HTML
+16m
+Reproduzir
+32. Resolução do Desafio - CSS
+19m
+Reproduzir
+33. Exercício - Menu horizontal
+1m
+Reproduzir
+34. resolução do exercício
+17m

@@ -1,0 +1,43 @@
+/* Define a fonte padrão para todo o corpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Define a fonte para os elementos h1, p e a */
+h1, p, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Define os links como elementos inline-block */
+a {
+    display: inline-block;
+}
+
+/* Estilo para links não visitados */
+a:link {
+    color: red;
+}
+
+/* Estilo para links visitados */
+a:visited {
+    color: violet;
+}
+
+/* Estilo para links quando o mouse está sobre eles */
+a:hover {
+    background-color: greenyellow;
+    padding: 3px; /* Adiciona um preenchimento de 3 pixels */
+}
+
+/* Estilo para links quando estão ativos (clicados) */
+a:active {
+    color: blueviolet;
+}
+
+/* :link: Essa pseudo-classe é aplicada aos links que ainda não foram visitados. Por padrão, esses links são normalmente exibidos na cor azul.
+
+:visited: Esta pseudo-classe é aplicada aos links que já foram visitados pelo usuário. Os estilos definidos para esta pseudo-classe geralmente são usados para diferenciar links visitados de links não visitados.
+
+:hover: Esta pseudo-classe é aplicada quando o cursor do mouse é movido sobre o link. Os estilos definidos para esta pseudo-classe geralmente são usados para fornecer feedback visual ao usuário, como alterar a cor do texto ou adicionar um efeito de fundo.
+
+:active: Esta pseudo-classe é aplicada quando o link está ativo, ou seja, quando ele está sendo clicado pelo usuário. Os estilos definidos para esta pseudo-classe geralmente são usados para fornecer feedback visual imediato sobre o clique do usuário. */

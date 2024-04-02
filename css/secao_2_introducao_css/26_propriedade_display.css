@@ -1,0 +1,84 @@
+/* Define estilos para o corpo do documento */
+body {
+    width: 90%; /* Define a largura do corpo como 90% da largura do viewport */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+}
+
+/* Define estilos para os elementos <h1> */
+h1 {
+    width: 50%; /* Define a largura do h1 como 50% do seu contêiner pai */
+    border-style: solid; /* Define o estilo da borda como sólido */
+    border-width: 3px; /* Define a largura da borda como 3 pixels */
+    border-color: blueviolet; /* Define a cor da borda como blueviolet */
+    background-color: tomato; /* Define a cor de fundo como tomato */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e laterais como automática para centralizar horizontalmente */
+    margin-bottom: 10px; /* Define uma margem inferior adicional de 10 pixels */
+}
+
+/* Define estilos para os elementos <p> */
+p {
+    width: 50%; /* Define a largura do p como 50% do seu contêiner pai */
+    background-color: turquoise; /* Define a cor de fundo como turquoise */
+    margin: 0 auto; /* Define margens superior e inferior como 0 e laterais como automática para centralizar horizontalmente */
+    border-style: solid; /* Define o estilo da borda como sólido */
+    border-width: 3px; /* Define a largura da borda como 3 pixels */
+    border-color: blueviolet; /* Define a cor da borda como blueviolet */
+}
+
+/* Define estilos para os elementos <a> */
+a {
+    margin-top: 5px; /* Define uma margem superior de 5 pixels */
+    margin-right: 5px; /* Define uma margem direita de 5 pixels */
+    margin-bottom: 5px; /* Define uma margem inferior de 5 pixels */
+    margin-left: 5px; /* Define uma margem esquerda de 5 pixels */
+    margin: 5px; /* Define todas as margens como 5 pixels (esta regra substitui as anteriores) */
+    padding-top: 5px; /* Define um preenchimento superior de 5 pixels */
+    padding-right: 5px; /* Define um preenchimento direito de 5 pixels */
+    padding-bottom: 5px; /* Define um preenchimento inferior de 5 pixels */
+    padding-left: 5px; /* Define um preenchimento esquerdo de 5 pixels */
+    padding: 5px; /* Define todos os preenchimentos como 5 pixels (esta regra substitui as anteriores) */
+    background-color: yellow; /* Define a cor de fundo como amarelo */
+    display: inline-block; /* Define o elemento como bloco em linha */
+}
+
+/* Define estilos para os elementos <strong> */
+strong {
+    background-color: red; /* Define a cor de fundo como vermelho */
+}
+
+/* Define estilos para os elementos <em> */
+em {
+    background-color: violet; /* Define a cor de fundo como violeta */
+}
+
+/* Define estilos para os elementos <i> */
+i {
+    background-color: antiquewhite; /* Define a cor de fundo como antiquewhite */
+}
+
+/* Define estilos para os elementos <b> */
+b {
+    display: block; /* Define o elemento como bloco */
+    background-color: orangered; /* Define a cor de fundo como orangered */
+    padding-top: 5px; /* Define um preenchimento superior de 5 pixels */
+    padding-right: 5px; /* Define um preenchimento direito de 5 pixels */
+    padding-bottom: 5px; /* Define um preenchimento inferior de 5 pixels */
+    padding-left: 5px; /* Define um preenchimento esquerdo de 5 pixels */
+    padding: 5px; /* Define todos os preenchimentos como 5 pixels (esta regra substitui as anteriores) */
+}
+
+
+/* display: block:
+
+A propriedade display: block faz com que um elemento seja renderizado como um bloco retangular que ocupa toda a largura disponível em sua linha. Isso significa que qualquer elemento com display: block começará em uma nova linha e estenderá horizontalmente o máximo possível dentro do seu contêiner pai.
+Exemplos típicos de elementos que têm display: block são <div>, <p>, <h1> até <h6>, <ul>, <ol>, <li>, entre outros.
+Elementos de bloco podem ter margens, preenchimento e altura especificados, e podem conter outros elementos, incluindo outros elementos de bloco ou em linha.
+
+
+display: inline-block:
+
+A propriedade display: inline-block combina as características dos elementos de bloco e em linha. Isso faz com que um elemento seja renderizado como um bloco retangular, mas permite que outros elementos fiquem ao lado dele na mesma linha, como se fosse um elemento em linha.
+Elementos com display: inline-block não começam em uma nova linha e respeitam a largura e altura especificadas, mas permitem que outros elementos fiquem ao lado deles na mesma linha.
+Isso é útil quando você deseja que um elemento tenha a capacidade de definir largura e altura, mas ainda deseja que outros elementos fiquem em linha com ele.
+Exemplos comuns de elementos com display: inline-block incluem botões, elementos de navegação, miniaturas de imagens, entre outros.
+Resumindo, enquanto display: block faz com que um elemento ocupe toda a largura disponível e inicie uma nova linha, display: inline-block permite que um elemento ocupe uma parte da linha, permitindo que outros elementos fiquem ao lado dele na mesma linha. */

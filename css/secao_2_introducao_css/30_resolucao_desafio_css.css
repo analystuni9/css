@@ -1,0 +1,86 @@
+/* Estilo para o corpo do documento */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte para o corpo do documento */
+    width: 80%; /* Define a largura do corpo do documento como 80% da largura do contêiner pai */
+    margin: auto; /* Centraliza o corpo do documento horizontalmente */
+    color: #444; /* Define a cor do texto como cinza escuro */
+    background-color: #ccc; /* Define a cor de fundo como cinza claro */
+    margin-bottom: 56px; /* Adiciona uma margem na parte inferior do corpo do documento */
+}
+
+/* Estilo para os cabeçalhos <h1> */
+h1 {
+    background-color: #acafd4; /* Define a cor de fundo como uma tonalidade de roxo */
+    color: #061761; /* Define a cor do texto como azul escuro */
+    text-align: center; /* Centraliza o texto */
+    font-size: 35px; /* Define o tamanho da fonte */
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+
+/* Estilo para os subtítulos <h2> */
+h2 {
+    color: #061761; /* Define a cor do texto como azul escuro */
+    background-color: #b6b6b6; /* Define a cor de fundo como cinza */
+    font-size: 30px; /* Define o tamanho da fonte */
+    border-bottom: 3px solid; /* Adiciona uma linha na parte inferior */
+    padding: 5px; /* Adiciona preenchimento interno */
+    margin-top: 48px; /* Adiciona uma margem superior */
+    margin-bottom: 12px; /* Adiciona uma margem inferior */
+}
+
+/* Estilo para listas não ordenadas */
+ul {
+    padding-left: 0; /* Remove o recuo padrão à esquerda */
+}
+
+/* Estilo para itens de lista */
+li {
+    list-style-position: inside; /* Posiciona o marcador de lista dentro do conteúdo */
+}
+
+/* Estilo para elementos com a classe 'center' */
+.center {
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para subtítulos com a classe 'subtitle' */
+.subtitle {
+    margin-top: 0; /* Remove a margem superior */
+    background-color: #c6c8e8; /* Define a cor de fundo como uma tonalidade de azul */
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none; /* Remove a decoração de sublinhado */
+}
+
+/* Estilo para links quando passados sobre */
+a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre */
+}
+
+/* Estilo para o menu */
+.menu {
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para itens de menu */
+.menu li {
+    list-style-type: none; /* Remove os marcadores de lista */
+    display: inline-block; /* Exibe os itens de menu em linha */
+    padding: 0; /* Remove o preenchimento */
+}
+
+/* Estilo para links do menu */
+.menu a {
+    background-color: #c1bebe; /* Define a cor de fundo como cinza */
+    padding: 16px; /* Adiciona preenchimento interno */
+    display: block; /* Exibe os links como blocos */
+}
+
+/* Estilo para links do menu quando passados sobre */
+.menu a:hover {
+    background-color: #333; /* Define a cor de fundo como preto */
+    color: #fff; /* Define a cor do texto como branco */
+    text-decoration: none; /* Remove a decoração de sublinhado */
+}

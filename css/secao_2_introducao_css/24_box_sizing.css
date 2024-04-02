@@ -1,5 +1,6 @@
 /* Define estilos para o elemento com ID 'container' */
 #container {
+    font-family: Arial, Helvetica, sans-serif;
     width: 500px; /* Define a largura do contêiner como 500 pixels */
     margin: 0 auto; /* Define margens automáticas para centralizar o contêiner horizontalmente */
 }
@@ -8,6 +9,7 @@
 p {
     width: 500px; /* Define a largura de todos os parágrafos como 500 pixels */
     background-color: teal; /* Define a cor de fundo como teal */
+    border:5px solid orange;
 }
 
 /* Define estilos para o elemento com ID 'p1' */
