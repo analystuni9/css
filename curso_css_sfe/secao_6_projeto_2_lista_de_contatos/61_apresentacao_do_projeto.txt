@@ -1,0 +1,60 @@
+Apresentação do Projeto
+
+Bom pessoal, então chega de teoria.
+
+Vamos começar a praticar um pouquinho tudo o que a gente viu até agora para a gente criar alguns projetos
+
+um pouco mais no mundo real.
+
+E o que a gente vai fazer agora?
+
+Então é essa lista de contatos aqui.
+
+Bacana.
+
+Muito bem.
+
+Então assim a gente consegue desenvolver este projetinho com basicamente o que a gente já viu até agora.
+
+Tem algumas dicas que eu quero passar para vocês, que talvez pode dar um pouco de problema, Então
+
+eu vou passar algumas dicas, algumas formas de resolver problemas bem comuns que podem acontecer com
+
+vocês e a gente vai fazendo por enquanto.
+
+Alguns exercícios meio que junto, eu vou fazendo e vou mostrando para vocês como que a gente faz,
+
+mas em algum momento eu vou passar a desafio para vocês, para vocês praticarem, para vocês se desafiarem,
+
+exercitarem com tudo o que a gente viu até agora.
+
+Eu acredito que 99% desse projetinho a gente já consegue fazer com o que a gente viu até o momento nesse
+
+curso bacana.
+
+No próximo vídeo a gente vai começar a desenvolver mais.
+
+Antes eu quero mostrar de onde eu tirei essas fotos e foi dessa url aqui o random e user ponto m, tá?
+
+Basicamente é uma API, uma API, o que significa são alguns dados.
+
+Olha só alguns dados que a gente pode utilizar em nossas aplicações.
+
+Então, como por exemplo para criar aplicações fakes, por exemplo.
+
+Mas as fotos mesmo eu tirei daqui.
+
+O user photos tem aqui várias, várias fotinhas aí que você pode utilizar em seus projetos.
+
+Legal pessoal!
+
+Então é isso, Agora sim, no próximo vídeo a gente vai começar a colocar a mão na massa para desenvolver
+
+esta pequena lista de contatos aqui.
+
+Fechado.
+
+É isso aí.
+
+Um grande abraço e até o próximo vídeo.
+

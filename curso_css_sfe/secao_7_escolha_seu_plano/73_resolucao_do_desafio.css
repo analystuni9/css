@@ -1,0 +1,143 @@
+/* Estilos para o corpo do documento */
+body {
+    width: 100%; /* Largura total */
+    flex-direction: column; /* Itens empilhados verticalmente */
+    display: flex; /* Utilizando flexbox */
+    justify-content: center; /* Centralizando verticalmente */
+    align-items: center; /* Centralizando horizontalmente */
+    background-color:#0c1014; /* Cor de fundo */
+    color:white; /* Cor do texto */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Fonte */
+}
+
+/* Estilos para o título principal */
+.main-title {
+    font-size:62px; /* Tamanho da fonte */
+    text-transform:uppercase; /* Transformar texto em maiúsculas */
+    text-align:center; /* Alinhamento central */
+    margin:46px 0; /* Margem superior e inferior */
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    width: 100vw;
+    display:flex; /* Utilizando flexbox */
+    flex-wrap:wrap; /* Permitindo que os itens quebrem linha quando necessário */
+    background-color:#222d35; /* Cor de fundo */
+    padding:16px; /* Preenchimento interno */
+    justify-content:space-between; /* Alinhamento dos itens */
+    align-items:center; /* Alinhamento dos itens */
+}
+
+/* Estilos para o logotipo no cabeçalho */
+.header__logo {
+    font-size:36px; /* Tamanho da fonte */
+    text-transform:uppercase; /* Transformar texto em maiúsculas */
+    margin:0 0 0 16px; /* Margem */
+    letter-spacing:2px; /* Espaçamento entre letras */
+}
+
+/* Estilos para a navegação no cabeçalho */
+.header__nav ul {
+    display:flex; /* Utilizando flexbox */
+    list-style-type:none; /* Removendo marcadores de lista */
+    font-size:18px; /* Tamanho da fonte */
+    gap:16px; /* Espaçamento entre os itens */
+}
+
+/* Estilos para os links na navegação */
+.header__nav a {
+    color:white; /* Cor do texto */
+    text-decoration:none; /* Removendo sublinhado */
+    padding:12px; /* Preenchimento interno */
+}
+
+/* Estilos de hover para os links na navegação */
+.header__nav a:hover {
+    text-decoration:underline; /* Adicionando sublinhado ao passar o mouse */
+}
+
+/* Estilos para o link ativo na navegação */
+a.header__nav--active {
+    background-color:#cbe300; /* Cor de fundo */
+    border-radius:6px; /* Arredondamento das bordas */
+    color:#0c1014; /* Cor do texto */
+    pointer-events:none; /* Desativando eventos do cursor */
+}
+
+/* Estilos para o contêiner de preços */
+.pricing {
+    width:100vw;
+    display:flex; /* Utilizando flexbox */
+    flex-wrap:wrap; /* Permitindo que os itens quebrem linha quando necessário */
+    max-width:980px; /* Largura máxima */
+    justify-content:center; /* Alinhando à esquerda */
+    gap:16px; /* Espaçamento entre os itens */
+}
+
+/* Estilos para o plano de preços */
+.pricing-plan {
+    flex:1; /* Utilizando flexbox */
+    flex-basis:250px; /* Largura mínima */
+    max-width:250px; /* Largura máxima */
+    max-height:360px; /* Altura máxima */
+    background-color:#1f262c; /* Cor de fundo */
+    padding:16px; /* Preenchimento interno */
+    border-radius:6px; /* Arredondamento das bordas */
+    box-shadow:0 5px 12px black; /* Sombra */
+    display:flex; /* Utilizando flexbox */
+    flex-direction:column; /* Alinhando os itens na direção da coluna */
+}
+
+/* Estilos para o título do plano de preços */
+.pricing-plan__title {
+    text-transform:uppercase; /* Transformar texto em maiúsculas */
+    border-bottom:2px solid #cbe300; /* Borda inferior */
+    margin-top:0; /* Removendo margem superior */
+    padding-bottom:10px; /* Preenchimento inferior */
+    letter-spacing:2px; /* Espaçamento entre letras */
+}
+
+/* Estilos para o conteúdo do plano de preços */
+.pricing-plan p {
+    margin-top:0; /* Removendo margem superior */
+}
+
+/* Estilos para o preço do plano de preços */
+.pricing-plan__price {
+    font-size:33px; /* Tamanho da fonte */
+}
+
+/* Estilos para as características do plano de preços */
+.pricing-plan__features {
+    margin:0 0 35px; /* Margem inferior */
+    color:#b5b5b5; /* Cor do texto */
+    padding-left:16px; /* Preenchimento à esquerda */
+    line-height:1.8; /* Altura da linha */
+    flex-grow:1; /* Permitindo que as características cresçam conforme necessário */
+}
+
+/* Estilos para o CTA (Call to Action) do plano de preços */
+.pricing-plan__cta {
+    text-decoration:none; /* Removendo decoração de texto */
+    color:#0c1014; /* Cor do texto */
+    background-color:#cbe300; /* Cor de fundo */
+    border-radius:6px; /* Arredondamento das bordas */
+    text-transform:uppercase; /* Transformar texto em maiúsculas */
+    font-size:16px; /* Tamanho da fonte */
+    font-weight:bold; /* Negrito */
+    padding:16px 10px; /* Preenchimento interno */
+    text-align:center; /* Alinhamento do texto */
+}
+
+/* Estilos de marcador para as características do plano de preços */
+.pricing-plan__features li::marker {
+    color:#cbe300; /* Cor do marcador */
+}
+
+/* Estilos de hover para o CTA do plano de preços */
+.pricing-plan__cta:hover {
+    outline:1px solid #cbe300; /* Borda ao redor do botão */
+    background-color:transparent; /* Cor de fundo transparente */
+    color:white; /* Cor do texto */
+}
