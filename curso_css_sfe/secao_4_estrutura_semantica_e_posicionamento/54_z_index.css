@@ -1,0 +1,65 @@
+/* Estilizações para o corpo do documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilizações para todas as divs */
+div {
+    border: 4px solid black;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 60%;
+}
+
+/* Estilizações específicas para divs com classe .div2 e .group2 */
+.div2.group2 {
+    position: absolute; /* Define a posição absoluta */
+    top: 0; /* Alinha a div no topo */
+    right: 0; /* Alinha a div à direita */
+    background-color: white; /* Cor de fundo branca */
+    z-index: 2; /* Define a ordem de empilhamento */
+}
+
+/* Estilizações específicas para divs com classe .div2 e .group1 */
+.div2.group1 {
+    /* position: absolute; */ /* Comentado para desativar a posição absoluta */
+    top: 100px; /* Define a distância do topo */
+    left: 0; /* Alinha a div à esquerda */
+    background-color: white; /* Cor de fundo branca */
+    /* z-index: 0; */ /* Comentado para desativar a ordem de empilhamento */
+}
+
+/* Estilizações específicas para divs com classe .div3 e .group1 */
+.div3.group1 {
+    position: relative; /* Define a posição relativa */
+    z-index: 2; /* Define a ordem de empilhamento */
+    background-color: red; /* Cor de fundo vermelha */
+}
+
+/* Estilizações específicas para divs com classe .div4 e .group1 */
+.div4.group1 {
+    position: relative; /* Define a posição relativa */
+    bottom: 35px; /* Move a div 35 pixels para cima a partir da posição normal */
+    left: 15px; /* Move a div 15 pixels para a direita a partir da posição normal */
+    background-color: yellow; /* Cor de fundo amarela */
+    z-index: 3; /* Define a ordem de empilhamento */
+}
+
+
+/* A propriedade z-index em CSS é usada para controlar a ordem de empilhamento de elementos posicionados ao longo do eixo Z (profundidade) do plano de empilhamento. Em outras palavras, ela determina qual elemento fica na frente ou atrás de outros elementos quando há sobreposição.
+
+Valores permitidos:
+Um número inteiro, positivo ou negativo.
+auto: O navegador determinará a ordem de empilhamento automaticamente.
+Comportamento:
+Valores maiores posicionam o elemento mais próximo do topo da pilha (ou seja, mais à frente).
+Valores menores posicionam o elemento mais próximo do fundo da pilha (ou seja, mais atrás).
+Se dois elementos tiverem o mesmo valor de z-index, a ordem de empilhamento será determinada pela ordem deles no código HTML, com o último elemento aparecendo na frente.
+Observações:
+A propriedade z-index só se aplica a elementos que tenham uma posição diferente de static (ou seja, relative, absolute ou fixed).
+z-index não tem efeito em elementos não posicionados.
+O valor padrão de z-index é auto.
+Por exemplo, se um elemento A tiver um z-index maior que um elemento B, o elemento A ficará na frente do elemento B, criando a impressão de camadas. Isso é útil para sobrepor elementos, como menus flutuantes, pop-ups e outros componentes de layout que precisam estar em diferentes níveis de profundidade. */

@@ -69,3 +69,25 @@ body {
 .overflow-visible {
     overflow: visible;
 }
+
+/* overflow: visible;
+
+Esta é a configuração padrão. Nesse caso, o conteúdo que excede o tamanho do elemento é exibido fora de seus limites, se necessário, não sendo recortado ou ocultado.
+overflow: hidden;
+
+Com esta propriedade, qualquer conteúdo que exceda o tamanho do elemento é recortado e ocultado, não sendo exibido.
+overflow: scroll;
+
+Com overflow: scroll;, uma barra de rolagem é sempre exibida no elemento, permitindo que o usuário role para ver o conteúdo que excede os limites do elemento.
+overflow: auto;
+
+Nesta configuração, uma barra de rolagem é exibida no elemento somente quando o conteúdo excede seus limites. Caso contrário, nenhuma barra de rolagem é mostrada.
+overflow-x: hidden;
+
+Essa propriedade controla o comportamento de transbordamento somente na direção horizontal. O conteúdo que excede o tamanho do elemento na direção horizontal será recortado e ocultado.
+overflow-y: hidden;
+
+Similar à propriedade overflow-x, mas controla o comportamento de transbordamento apenas na direção vertical. O conteúdo que excede o tamanho do elemento na direção vertical será recortado e ocultado.
+overflow-x: scroll;
+
+Semelhante a overflow-x: hidden;, mas uma barra de rolagem é sempre exibida na direção horizontal, permitindo que o usuário role para ver o conteúdo que excede os limites do elemento. */
