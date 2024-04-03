@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para o contêiner flexível */
+#container {
+    width: 500px; /* Largura do contêiner */
+    border: 2px solid #333; /* Borda sólida de 2px com cor cinza */
+    display: flex; /* Torna o contêiner flexível */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    justify-content: center; /* Centraliza os itens verticalmente */
+}
+
+/* Estilos para os itens flexíveis */
+.item {
+    width: 50px; /* Largura de cada item */
+    height: 50px; /* Altura de cada item */
+    border: 1px solid #ccc; /* Borda sólida de 1px com cor cinza clara */
+    margin: 5px; /* Margem de 5px ao redor de cada item */
+}

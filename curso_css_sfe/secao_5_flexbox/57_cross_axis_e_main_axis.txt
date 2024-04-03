@@ -1,0 +1,13 @@
+Em Flexbox, os conceitos de main axis (eixo principal) e cross axis (eixo transversal) são fundamentais para entender como os itens são dispostos dentro de um contêiner flexível.
+
+Main Axis (Eixo Principal):
+
+O eixo principal é definido pela propriedade flex-direction. Ele determina a direção em que os itens são alinhados dentro do contêiner flexível.
+Se flex-direction for definido como row (padrão), o eixo principal será horizontal da esquerda para a direita.
+Se flex-direction for definido como column, o eixo principal será vertical de cima para baixo.
+Cross Axis (Eixo Transversal):
+
+O eixo transversal é perpendicular ao eixo principal.
+Se flex-direction for row, o eixo transversal será vertical de cima para baixo.
+Se flex-direction for column, o eixo transversal será horizontal da esquerda para a direita.
+Portanto, dependendo de como o eixo principal é definido (flex-direction), o eixo transversal será o perpendicular a ele. Esses conceitos são cruciais para compreender e controlar o layout flexível de elementos em Flexbox.

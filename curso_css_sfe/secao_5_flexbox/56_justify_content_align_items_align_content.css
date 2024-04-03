@@ -1,0 +1,81 @@
+/* Define a fonte preferida para o corpo do documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para o contêiner flexível principal */
+.flexbox {
+    height: 250px; /* Altura fixa do contêiner */
+    border: 3px solid #333; /* Borda sólida de 3px */
+    display: flex; /* Define o contêiner como flexível */
+    margin-bottom: 16px; /* Margem inferior de 16px */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+    flex-direction: row; /* Itens dispostos em linha (horizontalmente) */
+    flex-flow: row wrap; /* Atalho para flex-direction e flex-wrap */
+}
+
+/* Estilos para as divs dentro do contêiner flexível */
+.flexbox div {
+    border: 2px solid #333; /* Borda sólida de 2px */
+    width: 150px; /* Largura fixa das divs */
+    margin: 15px; /* Margem ao redor das divs */
+}
+
+/* Estilos para um contêiner flexível específico */
+.flex-container1 {
+    flex-direction: row; /* Itens dispostos em linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+    flex-flow: row wrap; /* Atalho para flex-direction e flex-wrap */
+}
+
+/* Estilos para um contêiner flexível específico */
+.flex-container2 {
+    justify-content: space-around; /* Distribui os itens uniformemente com espaçamento ao redor */
+}
+
+/* Estilos para as divs dentro de um contêiner flexível específico */
+.flex-container2 div {
+    width: 30px; /* Largura fixa das divs */
+}
+
+/* Estilos para um contêiner flexível específico */
+.flex-container3 {
+    justify-content: space-around; /* Distribui os itens uniformemente com espaçamento ao redor */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+/* Estilos para as divs dentro de um contêiner flexível específico */
+.flex-container3 div {
+    width: 30px; /* Largura fixa das divs */
+    margin: 0; /* Remove a margem */
+}
+
+/* Estilos para um contêiner flexível específico */
+.flex-container4 {
+    justify-content: space-around; /* Distribui os itens uniformemente com espaçamento ao redor */
+    align-items: baseline; /* Alinha os itens verticalmente à linha de base */
+}
+
+/* Estilos para as divs dentro de um contêiner flexível específico */
+.flex-container4 div {
+    width: 30px; /* Largura fixa das divs */
+    margin: 0; /* Remove a margem */
+}
+
+/* Estilos para uma div específica dentro de um contêiner flexível */
+.flex-container4 .div2 {
+    font-size: 36px; /* Tamanho da fonte aumentado para 36px */
+}
+
+/* Estilos para as divs dentro de um contêiner flexível específico */
+.flex-container5 div {
+    width: 200px; /* Largura fixa das divs */
+}
+
+/* Estilos para um contêiner flexível específico */
+.flex-container5 {
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: flex-end; /* Alinha os itens verticalmente na parte inferior */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+    align-content: space-around; /* Distribui as linhas uniformemente com espaçamento ao redor */
+}

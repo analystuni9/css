@@ -1,0 +1,59 @@
+/* Define a fonte padrão para todo o documento HTML como Arial, Helvetica ou sans-serif */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para o contêiner flexível */
+#container {
+    /* Largura do contêiner */
+    width: 500px;
+    /* Borda sólida de 2 pixels com cor cinza ao redor do contêiner */
+    border: 2px solid #333;
+    /* Torna o contêiner flexível */
+    display: flex;
+    /* Alinha os itens ao longo do eixo transversal (verticalmente) à esquerda do contêiner */
+    align-items: flex-start;
+    /* Centraliza os itens ao longo do eixo principal (horizontalmente) dentro do contêiner */
+    justify-content: center;
+    /* Define a direção dos itens como coluna, organizando-os de cima para baixo */
+    flex-direction: column;
+}
+
+/* Estilos para outro contêiner flexível */
+#container2 {
+    /* Mesmos estilos que #container, exceto a direção dos itens, que permanece como linha (padrão) */
+    width: 500px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* Estilos para os itens flexíveis dentro dos contêineres */
+.item {
+    /* Largura e altura de cada item */
+    width: 50px;
+    height: 50px;
+    /* Borda sólida de 1 pixel com cor cinza clara ao redor de cada item */
+    border: 1px solid #ccc;
+    /* Margem de 5 pixels ao redor de cada item */
+    margin: 5px;
+}
+
+/* Estilos específicos para alguns itens */
+.item2,
+.item6 {
+    /* Define o tamanho base flexível para os itens, especificando o tamanho inicial antes de qualquer distribuição flexível acontecer */
+    flex-basis: 100px;
+    /* Define a cor de fundo dos itens como cinza escuro */
+    background-color: #888;
+}
+/* A propriedade flex-basis define o tamanho inicial dos itens flexíveis dentro de um contêiner flexível antes que a distribuição flexível ocorra.
+
+Quando usado sem outras propriedades de tamanho flexível (como flex-grow ou flex-shrink), flex-basis especifica o tamanho inicial dos itens flexíveis.
+Se usado em conjunto com flex-grow ou flex-shrink, o valor de flex-basis determina o tamanho inicial dos itens antes que o crescimento ou encolhimento flexíveis ocorram.
+Por exemplo, se você tiver um contêiner flexível com um tamanho fixo e quiser que os itens dentro dele tenham um tamanho inicial específico antes de qualquer distribuição flexível, você pode usar flex-basis. */
+/* .item {
+    flex-basis: 100px;  Define o tamanho inicial dos itens como 100 pixels 
+} */
+/* Neste exemplo, todos os itens dentro do contêiner flexível terão uma largura inicial de 100 pixels antes que qualquer distribuição flexível ocorra. Isso significa que, se houver espaço suficiente, os itens podem crescer além de 100 pixels, mas eles começarão com esse tamanho. */

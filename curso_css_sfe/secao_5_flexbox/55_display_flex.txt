@@ -1,0 +1,56 @@
+display: Essa propriedade define o tipo de layout usado para renderizar um elemento. Quando definido como flex, o elemento se comporta como um contêiner flexível, onde os itens dentro dele podem ser organizados e alinhados de maneiras diferentes.
+
+flex-direction: Define a direção principal dos itens flexíveis dentro do contêiner. Pode ser row (padrão), row-reverse, column ou column-reverse. row coloca os itens da esquerda para a direita, row-reverse faz o oposto, column coloca os itens de cima para baixo e column-reverse faz o oposto.
+
+flex-wrap: Controla se os itens flexíveis dentro do contêiner devem ser forçados a uma única linha ou se podem ser distribuídos em várias linhas. Pode ser nowrap (padrão), wrap ou wrap-reverse.
+
+flex-flow: É uma abreviação para as propriedades flex-direction e flex-wrap. Por exemplo, flex-flow: row wrap define a direção principal como linha e permite que os itens sejam distribuídos em várias linhas.
+
+justify-content: Controla o alinhamento dos itens flexíveis ao longo do eixo principal do contêiner. Pode ser flex-start (padrão), flex-end, center, space-between ou space-around.
+
+align-items: Define como os itens flexíveis são alinhados ao longo do eixo transversal do contêiner. Pode ser stretch (padrão), flex-start, flex-end, center ou baseline.
+
+align-content: Controla o alinhamento do espaço extra no contêiner flexível quando há espaço extra em várias linhas. Funciona de maneira semelhante ao justify-content, mas para o eixo transversal quando há várias linhas de itens. Pode ser flex-start, flex-end, center, space-between, space-around ou stretch.
+
+display: Esta propriedade define o tipo de layout usado para renderizar um elemento. Quando definido como flex, o elemento se comporta como um contêiner flexível, permitindo que os itens dentro dele sejam organizados e alinhados de maneiras flexíveis.
+
+flex-direction: Define a direção principal dos itens flexíveis dentro do contêiner. Pode ser:
+
+row: Os itens são dispostos da esquerda para a direita (padrão em um layout horizontal).
+row-reverse: Os itens são dispostos da direita para a esquerda.
+column: Os itens são dispostos de cima para baixo (padrão em um layout vertical).
+column-reverse: Os itens são dispostos de baixo para cima.
+flex-wrap: Controla se os itens flexíveis dentro do contêiner devem ser forçados a uma única linha ou se podem ser distribuídos em várias linhas. Pode ser:
+
+nowrap: Os itens são dispostos em uma única linha (padrão).
+wrap: Os itens são distribuídos em várias linhas conforme necessário.
+wrap-reverse: Os itens são distribuídos em várias linhas, começando da última linha.
+flex-flow: É uma abreviação para as propriedades flex-direction e flex-wrap. Por exemplo, flex-flow: row wrap define a direção principal como linha e permite que os itens sejam distribuídos em várias linhas.
+
+justify-content: Controla o alinhamento dos itens flexíveis ao longo do eixo principal do contêiner. Pode ser:
+
+flex-start: Os itens são alinhados no início do contêiner.
+flex-end: Os itens são alinhados no final do contêiner.
+center: Os itens são centralizados no contêiner.
+space-between: Os itens são distribuídos uniformemente com espaço entre eles.
+space-around: Os itens são distribuídos uniformemente com espaço em torno deles.
+align-items: Define como os itens flexíveis são alinhados ao longo do eixo transversal do contêiner. Pode ser:
+
+stretch: Os itens são esticados para preencher o contêiner.
+flex-start: Os itens são alinhados no início do eixo transversal.
+flex-end: Os itens são alinhados no final do eixo transversal.
+center: Os itens são centralizados ao longo do eixo transversal.
+baseline: Os itens são alinhados com suas linhas de base.
+align-content: Controla o alinhamento do espaço extra no contêiner flexível quando há espaço extra em várias linhas. Pode ser:
+
+flex-start: O conteúdo é alinhado no início do contêiner.
+flex-end: O conteúdo é alinhado no final do contêiner.
+center: O conteúdo é centralizado no contêiner.
+space-between: O espaço é distribuído uniformemente entre as linhas.
+space-around: O espaço é distribuído uniformemente em torno das linhas.
+stretch: O conteúdo é esticado para preencher o contêiner.
+
+
+
+
+

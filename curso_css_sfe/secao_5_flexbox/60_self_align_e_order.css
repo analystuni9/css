@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+    width: 400px; /* Define a largura do contêiner */
+    height: 400px; /* Define a altura do contêiner */
+    border: 2px solid black; /* Adiciona uma borda sólida de 2px preta ao contêiner */
+    display: flex; /* Torna o contêiner flexível */
+    /* flex-direction: column; */ /* Define a direção principal dos itens flexíveis como coluna */
+    gap: 10px; /* Define o espaçamento entre os itens flexíveis */
+    padding: 10px; /* Adiciona um preenchimento interno de 10px ao contêiner */
+}
+.item {
+    width: 50px; /* Define a largura dos itens flexíveis */
+    height: 50px; /* Define a altura dos itens flexíveis */
+    border: 1px solid #333; /* Adiciona uma borda sólida de 1px com cor #333 aos itens flexíveis */
+}
+.item1 {
+    /* order: -1; */ /* Define a ordem do primeiro item flexível como -1 */
+}
+.item2 {
+    /* order: -2; */ /* Define a ordem do segundo item flexível como -2 */
+    align-self: center; /* Alinha o segundo item flexível ao centro do contêiner */
+}
+.item3 {
+    /* order: -3; */ /* Define a ordem do terceiro item flexível como -3 */
+    align-self: flex-end; /* Alinha o terceiro item flexível à extremidade inferior do contêiner */
+}

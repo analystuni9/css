@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes para o corpo do documento */
+}
+
+#container {
+    width: 500px; /* Define a largura do contêiner */
+    height: 500px; /* Define a altura do contêiner */
+    border-width: 1px; /* Define a largura da borda do contêiner */
+    border-style: solid; /* Define o estilo da borda do contêiner como sólido */
+    border-color: black; /* Define a cor da borda do contêiner como preto */
+    display: flex; /* Ativa o modo flexível no contêiner */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    flex-flow: row wrap; /* Define a direção da flexão para linhas, com quebra de linha quando necessário */
+    padding: 5px; /* Adiciona preenchimento interno ao contêiner */
+}
+
+#div1, #div2, #div3, #div4 {
+    width: 140px; /* Define a largura dos elementos div */
+    height: 50px; /* Define a altura dos elementos div */
+    border: 1px solid black; /* Define a borda dos elementos div */
+}
