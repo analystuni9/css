@@ -1,5 +1,6 @@
 /* Estilizações para o corpo do documento */
 body {
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
