@@ -1,0 +1,71 @@
+/* Define o estilo para o corpo do documento */
+body {
+    margin-bottom: 500px; /* Adiciona uma margem na parte inferior do corpo do documento */
+}
+
+/* Define o estilo para os contêineres */
+.container {
+    border: 2px solid black; /* Adiciona uma borda sólida preta de 2px ao redor dos contêineres */
+    padding: 16px; /* Adiciona espaçamento interno de 16px ao redor dos contêineres */
+    width: 300px; /* Define a largura dos contêineres como 300px */
+    margin-bottom: 16px; /* Adiciona margem na parte inferior dos contêineres de 16px */
+    height: 300px; /* Define a altura dos contêineres como 300px */
+    background-color: rgba(255, 0, 0, .5); /* Define a cor de fundo dos contêineres como vermelho semi-transparente */
+}
+
+/* Define o estilo para os itens dentro dos contêineres */
+.item {
+    background-color: blueviolet; /* Define a cor de fundo dos itens como blueviolet */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior dos itens de 10px */
+    padding: 5px; /* Adiciona espaçamento interno de 5px dentro dos itens */
+}
+
+/* Define o estilo para os itens dentro dos contêineres com largura ajustada ao conteúdo */
+.fit-content .item {
+    width: fit-content; /* Define a largura dos itens como ajustada ao conteúdo */
+}
+
+/* Define o estilo para os itens dentro dos contêineres com largura mínima */
+.min-content .item {
+    width: min-content; /* Define a largura dos itens como a largura mínima necessária para conter o conteúdo */
+}
+
+/* Define o estilo para os itens dentro dos contêineres com largura máxima */
+.max-content .item {
+    width: max-content; /* Define a largura dos itens como a largura máxima possível sem quebrar o conteúdo */
+}
+
+/* Define o estilo para os itens com conteúdo que ultrapassa as dimensões do contêiner, escondendo o excesso */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Define o estilo para os itens com conteúdo que ultrapassa as dimensões do contêiner, permitindo rolagem */
+.overflow-scroll {
+    overflow: scroll;
+}
+
+/* Define o estilo para os itens com conteúdo que ultrapassa as dimensões do contêiner, permitindo rolagem automática */
+.overflow-auto {
+    overflow: auto;
+}
+
+/* Define o estilo para os itens com conteúdo que ultrapassa as dimensões do contêiner, escondendo a rolagem horizontal */
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+/* Define o estilo para os itens com conteúdo que ultrapassa as dimensões do contêiner, escondendo a rolagem vertical */
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+/* Define o estilo para os itens com conteúdo que ultrapassa as dimensões do contêiner, permitindo rolagem horizontal */
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+
+/* Define o estilo para os itens com conteúdo que ultrapassa as dimensões do contêiner, exibindo a rolagem conforme necessário */
+.overflow-visible {
+    overflow: visible;
+}

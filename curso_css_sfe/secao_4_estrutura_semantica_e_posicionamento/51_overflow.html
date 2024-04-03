@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Define o idioma da página como inglês -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para dispositivos móveis -->
+    <link rel="stylesheet" href="51_overflow.css"> <!-- Importa o arquivo CSS externo -->
+    <title>Overflow</title> <!-- Define o título da página -->
+</head>
+<body>
+    <h1>Overflow</h1> <!-- Título principal da página -->
+    <!-- Primeiro contêiner com largura ajustada ao conteúdo -->
+    <div class="container fit-content overflow-auto"> 
+        <div class="item">lorem</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, corrupti.</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quo laboriosam eos in cumque fuga voluptatem labore totam consectetur iusto.</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, beatae? Delectus atque nobis repellendus non aut in provident ea minus!</div> <!-- Item dentro do contêiner -->
+    </div> <!-- Fim do primeiro contêiner -->
+
+    <!-- Segundo contêiner com largura mínima -->
+    <div class="container min-content overflow-scroll">
+        <div class="item">lorem</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, aut!</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, cumque!</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas!</div> <!-- Item dentro do contêiner -->
+    </div> <!-- Fim do segundo contêiner -->
+
+    <!-- Terceiro contêiner com largura máxima -->
+    <div class="container max-content overflow-auto">
+        <div class="item">lorem</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, corrupti.</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore pariatur eveniet distinctio accusamus, veritatis impedit sed ex aut suscipit vitae.</div> <!-- Item dentro do contêiner -->
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A fugit qui cumque dicta dignissimos quae odit praesentium. Eaque, soluta rerum!</div> <!-- Item dentro do contêiner -->
+    </div> <!-- Fim do terceiro contêiner -->
+</body>
+</html>

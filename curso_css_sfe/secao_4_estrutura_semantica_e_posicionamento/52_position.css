@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte para o corpo do documento */
+}
+
+#div1 {
+    background-color: rgba(255, 0, 0, .5); /* Define a cor de fundo com transparência */
+    padding: 10px; /* Adiciona preenchimento interno */
+    width: 50%; /* Define a largura da div em relação ao contêiner pai */
+    position: sticky; /* Define a posição como "sticky" */
+    height: 200px; /* Define a altura da div */
+    top: 0; /* Alinha a div no topo */
+    bottom: 0; /* Alinha a div na parte inferior */
+}
+
+#div2 {
+    background-color: rgba(0, 255, 0, .5); /* Define a cor de fundo com transparência */
+    padding: 10px; /* Adiciona preenchimento interno */
+    width: 80%; /* Define a largura da div em relação ao contêiner pai */
+    height: 50px; /* Define a altura da div */
+    position: static; /* Define a posição como "static" (valor padrão) */
+}
+
+#div3 {
+    background-color: rgba(0, 0, 255, .5); /* Define a cor de fundo com transparência */
+    padding: 10px; /* Adiciona preenchimento interno */
+    width: 30px; /* Define a largura da div */
+    height: 30px; /* Define a altura da div */
+    position: static; /* Define a posição como "static" (valor padrão) */
+    top: 20px; /* Define o deslocamento superior */
+    right: 0; /* Define o deslocamento à direita */
+}
+
+
+
+/* 1. `position: static;`
+   - Esta é a configuração padrão para todos os elementos. Elementos com posição estática são posicionados de acordo com o fluxo normal do documento. As propriedades `top`, `right`, `bottom` e `left` não têm efeito em elementos com `position: static`.
+
+2. `position: relative;`
+   - Um elemento com `position: relative;` é posicionado em relação à sua posição normal. Isso significa que você pode usar as propriedades `top`, `right`, `bottom` e `left` para deslocar o elemento a partir de sua posição normal. Outros elementos na página ainda são posicionados como se o elemento com `position: relative;` estivesse em sua posição normal.
+
+3. `position: absolute;`
+   - Quando um elemento possui `position: absolute;`, ele é removido do fluxo normal do documento e posicionado em relação ao elemento pai mais próximo que possui uma posição diferente de `static` (ou ao próprio documento, se nenhum elemento pai tiver posição definida). As propriedades `top`, `right`, `bottom` e `left` são usadas para especificar a posição absoluta em relação ao elemento pai posicionado.
+
+4. `position: fixed;`
+   - Elementos com `position: fixed;` são removidos do fluxo normal do documento e são posicionados em relação à janela do navegador. Isso significa que, independentemente de rolar a página, o elemento permanecerá fixo em sua posição. As propriedades `top`, `right`, `bottom` e `left` são usadas para especificar a posição fixa na janela do navegador.
+
+5. `position: sticky;`
+   - A posição `sticky` é uma mistura entre `relative` e `fixed`. O elemento é tratado como `relative` até que alcance um determinado ponto na janela do navegador, onde ele se comporta como `fixed`. Quando o usuário rolar a página e o elemento atingir a posição definida pelo valor `sticky`, ele permanecerá fixo nessa posição. As propriedades `top`, `right`, `bottom` e `left` são usadas para definir o ponto onde o elemento se torna fixo. */

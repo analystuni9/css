@@ -1,0 +1,34 @@
+/* Define a fonte a ser utilizada para o corpo do documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para o contêiner */
+.container {
+    border: 2px solid black; /* Adiciona uma borda sólida preta de 2px ao redor do contêiner */
+    padding: 16px; /* Adiciona espaçamento interno de 16px ao redor do contêiner */
+    width: 300px; /* Define a largura do contêiner como 300px */
+    margin-bottom: 16px; /* Adiciona margem na parte inferior do contêiner de 16px */
+}
+
+/* Estilo para os itens dentro do contêiner */
+.item {
+    background-color: blueviolet; /* Define a cor de fundo dos itens como blueviolet */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior dos itens de 10px */
+    padding: 5px; /* Adiciona espaçamento interno de 5px dentro dos itens */
+}
+
+/* Estilo para os itens dentro do contêiner com largura ajustada ao conteúdo */
+.fit-content .item {
+    width: fit-content; /* Define a largura dos itens como ajustada ao conteúdo */
+}
+
+/* Estilo para os itens dentro do contêiner com largura mínima */
+.min-content .item {
+    width: min-content; /* Define a largura dos itens como a largura mínima necessária para conter o conteúdo */
+}
+
+/* Estilo para os itens dentro do contêiner com largura máxima */
+.max-content .item {
+    width: max-content; /* Define a largura dos itens como a largura máxima possível sem quebrar o conteúdo */
+}

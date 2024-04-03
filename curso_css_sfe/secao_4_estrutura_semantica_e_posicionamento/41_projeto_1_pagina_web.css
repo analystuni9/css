@@ -1,0 +1,127 @@
+/* Define o estilo para o corpo da página */
+body {
+    background-color: greenyellow; /* Define a cor de fundo */
+    margin: 0; /* Remove margens padrão */
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+}
+
+/* Define o estilo para o elemento de classe 'hero' */
+.hero {
+    background-image: url(imagens/bg-3.jpg); /* Define a imagem de fundo */
+    height: 300px; /* Define a altura */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir */
+    background-position: right center; /* Posiciona a imagem no centro direito */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    padding: 1px; /* Adiciona um pequeno espaçamento interno */
+}
+
+/* Define o estilo para o conteúdo dentro do elemento de classe 'hero-content' */
+.hero-content {
+    width: 80%; /* Define a largura */
+    margin: 50px auto 0 auto; /* Centraliza verticalmente */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Define o estilo para o título dentro do elemento de classe 'hero-content' */
+.hero-content h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define a família de fontes */
+    color: white; /* Define a cor do texto */
+}
+
+/* Define o estilo para os links dentro do elemento de classe 'hero-content' */
+.hero-content a {
+    text-decoration: none; /* Remove a decoração do link */
+    color: white; /* Define a cor do link */
+    font-size: 18px; /* Define o tamanho da fonte */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+}
+
+/* Define o estilo para os links ao passar o mouse */
+.hero-content a:hover {
+    color: greenyellow; /* Altera a cor do texto */
+    font-weight:bold;
+}
+
+/* Define o estilo para a navegação dentro do elemento de classe 'hero' */
+.hero nav ul {
+    display: flex; /* Utiliza flexbox para layout */
+    text-align: right; /* Alinha o texto à direita */
+    justify-content: flex-end; /* Alinha os itens à direita */
+    gap: 15px; /* Define o espaçamento entre os itens */
+    margin: 20px 20px 0 0; /* Adiciona margens */
+    list-style-type: none; /* Remove os marcadores de lista */
+}
+
+/* Define o estilo para os itens de navegação */
+.hero nav li {
+    padding: 3px; /* Adiciona preenchimento interno */
+}
+
+/* Define o estilo para os links de navegação */
+.hero nav a {
+    color: white; /* Define a cor do texto */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+    text-decoration: none; /* Remove a decoração do link */
+
+}
+
+/* Define o estilo para os links de navegação ao passar o mouse */
+.hero nav a:hover {
+    text-decoration: underline; /* Adiciona sublinhado */
+    background-color: rgba(173, 255, 47, 0.5); /* Altera a cor de fundo */
+    color: black; /* Altera a cor do texto */
+
+}
+
+/* Define o estilo para o conteúdo principal */
+main {
+    width: 90%; /* Define a largura */
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+/* Define o estilo para os artigos */
+article {
+    background-color: white; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona preenchimento */
+    margin-top:20px; /* Adiciona margem na parte posterior */
+    margin-bottom: 20px; /* Adiciona margem na parte inferior */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+/* Define o estilo para os títulos dos artigos */
+article h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define a família de fontes */
+    text-align: center; /* Alinha o texto ao centro */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Adiciona linha inferior */
+    padding-bottom: 10px; /* Adiciona espaçamento interno na parte inferior */
+}
+
+/* Define o estilo para os parágrafos dos artigos */
+article p {
+    text-indent: 20px; /* Define a identação */
+}
+
+/* Define o estilo para os links dentro dos artigos */
+article a {
+    text-decoration: none; /* Remove a decoração do link */
+    color: white; /* Define a cor do texto */
+    background-color: rgba(128, 128, 128, 0.7); /* Define a cor de fundo */
+    border-radius: 3px; /* Adiciona bordas arredondadas */
+    padding: 5px 10px; /* Adiciona preenchimento */
+    transition: background-color 0.3s ease; /* Adiciona transição suave */
+}
+
+/* Define o estilo para os links dentro dos artigos ao passar o mouse */
+article a:hover {
+    background-color: rgba(173, 255, 47, 0.7); /* Altera a cor de fundo */
+}
+
+/* Define o estilo para o rodapé */
+footer {
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px 0; /* Adiciona preenchimento */
+    background-color: #333; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+}

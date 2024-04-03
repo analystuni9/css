@@ -1,0 +1,55 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Define o estilo do container */
+#container {
+    width: 80%; /* Define a largura do container */
+    background-color: #ccc; /* Define a cor de fundo do container */
+    padding: 15px; /* Adiciona espaçamento interno ao container */
+    overflow: auto; /* Define como o overflow será tratado no container */
+}
+
+/* Define o estilo dos elementos dentro do container */
+#container div {
+    background-color: rgba(255, 0, 0, .3); /* Define a cor de fundo dos elementos */
+    margin: 10px; /* Adiciona margem ao redor dos elementos */
+    width: 20%; /* Define a largura dos elementos */
+    height: 50px; /* Define a altura dos elementos */
+}
+
+/* Estilo para o primeiro elemento div dentro do container */
+#div1 {
+    float: left; /* Faz o elemento flutuar para a esquerda */
+}
+
+/* Estilo para o segundo elemento div dentro do container */
+#div2 {
+    float: left; /* Faz o elemento flutuar para a esquerda */
+}
+
+/* Estilo para o terceiro elemento div dentro do container */
+#div3 {
+    float: left; /* Faz o elemento flutuar para a esquerda */
+}
+
+
+/* float:
+
+A propriedade float é usada para especificar como um elemento deve ser posicionado em relação aos outros elementos em seu contêiner.
+Quando um elemento é flutuado, ele é retirado do fluxo normal do documento e movido para a esquerda ou para a direita até que ele encontre a borda do seu contêiner ou outro elemento flutuante.
+Os valores possíveis para float são:
+left: O elemento flutua para a esquerda.
+right: O elemento flutua para a direita.
+none: O elemento não flutua.
+inherit: O elemento herda o valor de float de seu elemento pai.
+clear:
+
+A propriedade clear é usada para especificar como um elemento deve se comportar em relação aos elementos flutuantes anteriores.
+Se um elemento flutuante estiver presente antes do elemento que possui a propriedade clear, o elemento com clear irá se posicionar abaixo dos flutuantes.
+Os valores possíveis para clear são:
+left: O elemento não deve estar à esquerda dos elementos flutuantes.
+right: O elemento não deve estar à direita dos elementos flutuantes.
+both: O elemento não deve estar à esquerda ou à direita dos elementos flutuantes.
+none: O elemento pode estar à esquerda ou à direita dos elementos flutuantes.
+inherit: O elemento herda o valor de clear de seu elemento pai.
+O uso de float é comum para criar layouts de várias colunas, enquanto clear é usado para evitar que elementos flutuem ao lado de outros elementos flutuantes. No entanto, é importante ter cuidado ao usar float, pois pode causar problemas de layout complexos e pode ser substituído por outras técnicas de layout mais modernas, como Flexbox e Grid Layout. */
