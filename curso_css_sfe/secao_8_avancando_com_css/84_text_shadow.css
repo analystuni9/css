@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Define a família de fontes */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-top: 100px; /* Define uma margem superior de 100 pixels */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    font-size: 3em; /* Define o tamanho da fonte como 3 vezes o tamanho padrão */
+    color: rgb(126, 124, 124); /* Define a cor do texto como um cinza claro */
+
+    /* Define o efeito de sombra do texto */
+    text-shadow: 
+        -1px 1px 0 rgba(0, 0, 0, .9), /* Sombra diagonal superior esquerda */
+        -2px 2px 0 rgba(0, 0, 0, .7), /* Sombra diagonal superior esquerda mais escura */
+        -3px 3px 0 rgba(0, 0, 0, .5), /* Sombra diagonal superior esquerda ainda mais escura */
+        -4px 4px 0 rgba(0, 0, 0, .3), /* Sombra diagonal superior esquerda mais escura */
+        -5px 5px 0 rgba(0, 0, 0, .1); /* Sombra diagonal superior esquerda mais clara */
+}

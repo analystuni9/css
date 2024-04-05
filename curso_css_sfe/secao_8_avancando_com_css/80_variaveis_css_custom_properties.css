@@ -1,0 +1,36 @@
+:root {
+    --header-height: 10rem; /* Define uma variável CSS para a altura do cabeçalho */
+    --main-color: rgba(252, 124, 101, 0.8); /* Define uma variável CSS para a cor principal */
+}
+
+html {
+    font-size: 62.5%; /* Define o tamanho base da fonte como 62.5% do tamanho padrão */
+}
+
+header {
+    width: 100%; /* Largura total */
+    background-color: var(--main-color); /* Usa a variável CSS para definir a cor de fundo do cabeçalho */
+    height: var(--header-height); /* Usa a variável CSS para definir a altura do cabeçalho */
+    font-size: 2rem; /* Tamanho da fonte de 2 rem */
+    position: fixed; /* Posição fixa para manter o cabeçalho no topo da página */
+    top: 0; /* Distância do topo */
+    left: 0; /* Distância da esquerda */
+}
+
+main {
+    --header-height: 2rem; /* Redefine a variável CSS da altura do cabeçalho apenas para o elemento principal */
+    min-height: calc(100vh - var(--header-height) - 2rem); /* Altura mínima do conteúdo principal, considerando a altura do cabeçalho */
+    background-color: #ccc; /* Cor de fundo cinza claro */
+    font-size: 2rem; /* Tamanho da fonte de 2 rem */
+    margin-top: var(--header-height); /* Margem superior para evitar sobreposição com o cabeçalho */
+}
+
+p {
+    margin: calc(var(--header-height) * 2); /* Margem calculada com base na altura do cabeçalho */
+}
+
+footer {
+    height: 10rem; /* Altura fixa do rodapé */
+    font-size: 2rem; /* Tamanho da fonte de 2 rem */
+    background-color: var(--main-color); /* Usa a variável CSS para definir a cor de fundo do rodapé */
+}

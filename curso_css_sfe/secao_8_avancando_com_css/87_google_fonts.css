@@ -1,0 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap'); /* Importa a fonte Poppins do Google Fonts */
+
+body {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte do corpo do documento como Poppins, com fallback para fontes genéricas sans-serif caso a fonte Poppins não esteja disponível */
+}
