@@ -1,0 +1,22 @@
+html {
+    font-size: 200%; /* Define o tamanho da fonte para todo o documento HTML como 200% do tamanho padrão */
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size:1em;
+}
+:root {
+    --color: red; /* Define uma variável CSS global chamada --color e atribui a cor vermelha a ela */
+}
+
+.container {
+    --color: orange; /* Define uma variável CSS específica para a classe .container e atribui a cor laranja a ela */
+}
+
+p {
+    color: var(--color); /* Aplica a cor definida pela variável --color a todos os elementos <p> */
+}
+
+.div1 {
+    --color: green; /* Define uma variável CSS específica para a classe .div1 e atribui a cor verde a ela */
+}

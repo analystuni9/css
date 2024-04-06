@@ -1,0 +1,38 @@
+/* Define o tipo de fonte a ser usada para o texto no corpo da página. 
+   Neste caso, a fonte padrão é definida como Arial, Helvetica 
+   ou uma fonte sans-serif genérica caso as primeiras duas não estejam disponíveis no sistema do usuário. */
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Define o tamanho padrão da fonte para o documento HTML em 62.5% do tamanho padrão do navegador. 
+   Isso é feito para facilitar o cálculo do tamanho da fonte em "em" (unidade de medida relativa) mais tarde no documento. 
+   Usar uma porcentagem de 62.5% é comum, pois 1em é igual a 10px nesse contexto (10px é 62.5% de 16px, que é geralmente o tamanho padrão do navegador). */
+html {
+    font-size: 62.5%;
+}
+
+/* Define o tamanho da fonte para elementos <h1> como 1.8 vezes o tamanho da fonte padrão do navegador. */
+h1 {
+    font-size: 1.8em;
+}
+
+/* Define o tamanho da fonte para elementos <p> como 2 vezes o tamanho da fonte padrão do navegador. */
+p {
+    font-size: 2em;
+}
+
+/* Define o tamanho da fonte para elementos <b> como o tamanho da fonte padrão do navegador. 
+   Além disso, define a cor do texto para vermelho. */
+b {
+    font-size: 1em;
+    color: red;
+}
+
+/* Define o tamanho da fonte para elementos <i> como 2 vezes o tamanho da fonte do elemento pai. 
+   Neste caso, como html definiu o tamanho da fonte em 62.5%, 2rem equivale a 20px (2 vezes 10px). 
+   Além disso, define a cor do texto para azul. */
+i {
+    font-size: 2rem;
+    color: blue;
+}

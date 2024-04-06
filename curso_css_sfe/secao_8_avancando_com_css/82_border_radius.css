@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte para o corpo da página */
+}
+
+div {
+    background-color: orange; /* Define a cor de fundo da div como laranja */
+    width: 200px; /* Define a largura da div como 200 pixels */
+    height: 200px; /* Define a altura da div como 200 pixels */
+    margin: 100px auto; /* Define as margens superior e inferior como 100 pixels e centraliza a div horizontalmente */
+    border-radius: 50px 20px 0 80px / 100px 50px 0 20px; /* Define o raio da borda para a div:
+                                                            - 50px no canto superior esquerdo
+                                                            - 20px no canto superior direito
+                                                            - 0 no canto inferior direito
+                                                            - 80px no canto inferior esquerdo
+                                                            - 100px na borda superior
+                                                            - 50px na borda direita
+                                                            - 0 na borda inferior
+                                                            - 20px na borda esquerda */
+}

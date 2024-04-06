@@ -1,0 +1,48 @@
+/* Define o tipo de fonte a ser usada para o texto no corpo da página. 
+   Neste caso, a fonte padrão é definida como Arial, Helvetica 
+   ou uma fonte sans-serif genérica caso as primeiras duas não estejam disponíveis no sistema do usuário. */
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Define o tamanho padrão da fonte para o documento HTML em 62.5% do tamanho padrão do navegador. 
+   Isso é feito para facilitar o cálculo do tamanho da fonte em "em" (unidade de medida relativa) mais tarde no documento. 
+   Usar uma porcentagem de 62.5% é comum, pois 1em é igual a 10px nesse contexto (10px é 62.5% de 16px, que é geralmente o tamanho padrão do navegador). */
+html {
+    font-size: 62.5%;
+}
+
+/* Define o tamanho da fonte para elementos <h1> como 3 vezes o tamanho da fonte padrão do navegador. */
+h1 {
+    font-size: 3em;
+}
+
+/* Define o tamanho da fonte para elementos <p> como 2 vezes o tamanho da fonte padrão do navegador. */
+p {
+    width: 10em; /* Define a largura do parágrafo */
+    font-size: 2em;
+    background-color: #888; /* Define a cor de fundo do parágrafo */
+}
+
+/* Define o tamanho da fonte para elementos <b> como a metade do tamanho da fonte padrão do navegador. 
+   Além disso, define a cor do texto para vermelho. */
+b {
+    font-size: 50%; /* Define a metade do tamanho da fonte padrão */
+    color: red; /* Define a cor do texto como vermelho */
+}
+
+/* Define o tamanho da fonte para elementos <i> como 2 vezes o tamanho da fonte do elemento pai. 
+   Neste caso, como html definiu o tamanho da fonte em 62.5%, 2rem equivale a 20px (2 vezes 10px). 
+   Além disso, define a cor do texto para azul. */
+i {
+    font-size: 2rem; /* Define o tamanho da fonte como 2 vezes o tamanho do pai */
+    color: blue; /* Define a cor do texto como azul */
+}
+
+/* Define um estilo para o elemento com o id "porcentagem", que inclui uma largura e altura de 60% do tamanho do elemento pai, 
+   e um fundo amarelo. */
+#porcentagem {
+    width: 60%; /* Define a largura do elemento como 60% do pai */
+    height: 60%; /* Define a altura do elemento como 60% do pai */
+    background-color: yellow; /* Define a cor de fundo como amarelo */
+}

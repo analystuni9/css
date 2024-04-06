@@ -1,0 +1,16 @@
+div {
+    width: 200px; /* Define a largura do elemento div como 200 pixels */
+    height: 100px; /* Define a altura do elemento div como 100 pixels */
+    background-color: yellow; /* Define a cor de fundo como amarelo */
+
+    outline: 4px solid red; /* Define um contorno de 4 pixels de largura, sólido e vermelho */
+    outline-style: dashed; /* Define o estilo do contorno como tracejado */
+    box-sizing: border-box; /* Inclui a espessura do contorno no tamanho total do elemento */
+    outline-offset: -16px; /* Desloca o contorno 16 pixels para dentro do elemento */
+
+    margin: 100px auto; /* Define margens superior e inferior de 100 pixels e margens laterais automáticas */
+}
+
+div:hover {
+    outline-width: 10px; /* Quando o mouse passa sobre o elemento, aumenta a largura do contorno para 10 pixels */
+}

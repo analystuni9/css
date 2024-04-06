@@ -1,0 +1,31 @@
+/* Define o tamanho base da fonte como 62.5% do tamanho padrão e define a família de fontes para Arial, Helvetica, sans-serif para todo o documento HTML. */
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    width: 100%; /* Largura total */
+    background-color: rgba(255, 0, 0, .3); /* Cor de fundo vermelha semi-transparente */
+    height: 15rem; /* Altura fixa de 15 rem */
+    font-size: 2rem; /* Tamanho da fonte de 2 rem */
+    position: fixed; /* Posição fixa para que o cabeçalho permaneça no topo da página */
+    top: 0; /* Distância do topo */
+    left: 0; /* Distância da esquerda */
+}
+
+/* Estiliza o conteúdo principal */
+main {
+    min-height: calc(100vh - 15rem - 2rem); /* Altura mínima calculada com base na altura da viewport menos a altura do cabeçalho e uma margem superior */
+    background-color: #ccc; /* Cor de fundo cinza claro */
+    font-size: 2rem; /* Tamanho da fonte de 2 rem */
+    margin-top: 15rem; /* Margem superior para evitar sobreposição com o cabeçalho */
+}
+
+/* Estiliza o rodapé */
+footer {
+    height: 10rem; /* Altura fixa de 10 rem */
+    font-size: 2rem; /* Tamanho da fonte de 2 rem */
+    background-color: rgb(48, 48, 247); /* Cor de fundo azul */
+}

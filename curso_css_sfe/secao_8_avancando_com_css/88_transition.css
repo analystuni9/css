@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes para o corpo do documento */
+}
+
+#container {
+    width: 50px; /* Define a largura inicial do elemento #container */
+    height: 50px; /* Define a altura inicial do elemento #container */
+    border: 2px solid gray; /* Define uma borda sólida de 2px na cor cinza para o elemento #container */
+    transition-property: all; /* Define a propriedade de transição como 'all', aplicando a transição a todas as propriedades */
+    transition-timing-function: ease; /* Define a função de temporização da transição como 'ease' para criar uma transição suave */
+    transition-duration: 1s; /* Define a duração da transição como 1 segundo */
+    /* transition: all ease 1s;  Esta linha é uma forma abreviada de definir todas as propriedades de transição de uma só vez */
+    cursor: pointer; /* Define o cursor do mouse como um ponteiro quando o mouse passa sobre o elemento */
+}
+
+#container:hover {
+    width: 300px; /* Quando o mouse passa sobre o elemento #container, sua largura é alterada para 300px */
+    height: 300px; /* Quando o mouse passa sobre o elemento #container, sua altura é alterada para 300px */
+}

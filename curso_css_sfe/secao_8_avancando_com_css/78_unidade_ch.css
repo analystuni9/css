@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#em {
+    width: 20em; /* Define a largura como 20 vezes o tamanho da fonte atual */
+    padding: 1em; /* Define o preenchimento interno como 1 vezes o tamanho da fonte atual */
+    background-color: orange; /* Define a cor de fundo como laranja */
+    font-size: 1em; /* Define o tamanho da fonte como 1 vezes o tamanho da fonte atual */
+}
+
+#ch {
+    width: 20ch; /* Define a largura como 20 vezes o tamanho do caractere "0" da fonte atual */
+    padding: 1em; /* Define o preenchimento interno como 1 vezes o tamanho da fonte atual */
+    margin: 1em; /* Define a margem externa como 1 vezes o tamanho da fonte atual */
+    background-color: yellow; /* Define a cor de fundo como amarelo */
+    font-size: 1em; /* Define o tamanho da fonte como 1 vezes o tamanho da fonte atual */
+}

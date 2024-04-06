@@ -1,0 +1,15 @@
+div {
+    background-color: orange; /* Define a cor de fundo da div como laranja */
+    width: 200px; /* Define a largura da div como 200 pixels */
+    height: 200px; /* Define a altura da div como 200 pixels */
+    margin: 100px auto; /* Define as margens superior e inferior como 100 pixels e centraliza a div horizontalmente */
+
+    /* Define o raio das bordas da div */
+    border-radius: 50px 20px 0 80px / 100px 50px 0 20px;
+
+    /* Define o efeito de sombra da div */
+    box-shadow: 20px 0 0 0 black, /* Sombra à direita */
+               10px 20px 10px red, /* Sombra inferior direita */
+               -10px 5px 5px blue, /* Sombra inferior esquerda */
+               0 -10px 10px 5px green; /* Sombra acima */
+}
