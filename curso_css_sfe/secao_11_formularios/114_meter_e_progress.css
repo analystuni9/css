@@ -1,0 +1,59 @@
+/* Estilos gerais para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte para todo o corpo do documento */
+    padding: 20px; /* Adiciona um espaçamento interno ao redor do conteúdo */
+  }
+  
+  /* Estilos para o contêiner principal */
+  .container {
+    max-width: 600px; /* Define a largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+  }
+  
+  /* Estilos para cada exemplo de medidor e progresso */
+  .exemplo {
+    margin-bottom: 20px; /* Adiciona espaço entre cada exemplo */
+  }
+  
+  /* Estilos para rótulos */
+  label {
+    display: block; /* Faz com que os rótulos apareçam em uma nova linha */
+    margin-bottom: 5px; /* Adiciona espaço abaixo de cada rótulo */
+    font-weight: bold; /* Define a fonte em negrito para os rótulos */
+  }
+  
+  /* Estilos básicos para medidores e progressos */
+  meter, progress {
+    width: 100%; /* Define a largura total do elemento */
+    height: 20px; /* Define a altura do medidor/progresso */
+    border: 1px solid #ccc; /* Adiciona uma borda ao redor do medidor/progresso */
+    border-radius: 5px; /* Adiciona um raio de borda para suavizar as bordas */
+  }
+  
+  /* Espaçamento superior para medidores */
+  meter {
+    margin-top: 5px; /* Adiciona espaço acima de cada medidor */
+  }
+  
+  /* Espaçamento superior para progressos */
+  progress {
+    margin-top: 5px; /* Adiciona espaço acima de cada progresso */
+  }
+  
+  /* Estilos específicos para medidores em navegadores WebKit (Chrome, Safari, Edge) */
+  meter[value]::-webkit-meter-bar {
+    background-color: #eee; /* Cor do fundo do medidor */
+  }
+  
+  meter[value]::-webkit-meter-optimum-value {
+    background-color: #4CAF50; /* Cor do medidor quando o valor é ótimo */
+  }
+  
+  meter[value]::-webkit-meter-suboptimum-value {
+    background-color: #FFD700; /* Cor do medidor quando o valor é subótimo */
+  }
+  
+  meter[value]::-webkit-meter-even-less-good-value {
+    background-color: #FF6347; /* Cor do medidor quando o valor é ainda menos bom */
+  }
+  

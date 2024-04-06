@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px; /* Adiciona um espaço entre cada input */
+}
+
+/* Estilo para o input de texto */
+#texto, #email {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input numérico */
+#numero {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input de seleção */
+#escolha {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input de arquivo */
+#arquivo {
+  margin-top: 5px;
+}
+
+/* Estilo para o input de data */
+#data {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input de tempo */
+#tempo {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input de localização */
+#localizacao {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input de senha */
+#senha {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input de URL */
+#url {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para o input de cor */
+#cor {
+  margin-top: 5px;
+}
+
+/* Estilo para o input do tipo checkbox */
+.checkbox {
+  margin-right: 5px;
+}
+
+/* Estilo para o input do tipo radio */
+.radio {
+  margin-right: 5px;
+}

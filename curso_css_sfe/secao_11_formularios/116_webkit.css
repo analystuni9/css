@@ -1,0 +1,66 @@
+ /* Estilos com prefixo -webkit- */
+
+        /* Exemplo de transformação */
+        .exemplo-transformacao {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            -webkit-transform: rotate(45deg);
+        }
+
+        /* Exemplo de animação */
+        .exemplo-animacao {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            -webkit-animation: girar 1s infinite;
+        }
+
+        @-webkit-keyframes girar {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        /* Exemplo de gradiente */
+        .exemplo-gradiente {
+            width: 200px;
+            height: 200px;
+            background: -webkit-linear-gradient(red, blue);
+        }
+
+        /* Exemplo de layout flexível */
+        .exemplo-layout-flexivel {
+            display: -webkit-box;
+            -webkit-box-pack: center;
+            -webkit-box-align: center;
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        /* Exemplo de imagem de alta resolução */
+        .exemplo-imagem-alta-resolucao {
+            width: 200px;
+            height: 200px;
+            background-image: url('imagem-retina.png');
+            -webkit-background-size: 100px 100px;
+        }
+
+        /* Exemplo de barra de rolagem personalizada */
+        .exemplo-barra-de-rolagem {
+            width: 200px;
+            height: 200px;
+            overflow-y: scroll;
+        }
+
+        .exemplo-barra-de-rolagem::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .exemplo-barra-de-rolagem::-webkit-scrollbar-thumb {
+            background-color: #888;
+        }

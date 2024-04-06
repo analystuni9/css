@@ -1,4 +1,4 @@
-Claro! Aqui estão todos os tipos de inputs com uma breve explicação para cada um:
+Aqui estão todos os tipos de inputs com uma breve explicação para cada um:
 
 1. input[type="text"]: Este tipo de input é usado para coletar texto curto ou alfanumérico. Pode ser usado para inserir nomes, endereços, ou qualquer outra informação textual.
 
