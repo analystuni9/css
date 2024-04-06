@@ -1,0 +1,21 @@
+/* Define a fonte para o corpo do documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para todas as tabelas */
+table {
+    width: 80%; /* Define a largura da tabela como 80% do contêiner pai */
+    border-collapse: collapse; /* Combina as bordas das células da tabela */
+    margin-bottom: 10px; /* Adiciona um espaço entre as tabelas */
+}
+
+/* Estilos para células de tabela e cabeçalhos */
+td, th {
+    border: 1px solid black; /* Adiciona uma borda de 1px sólida em todas as células e cabeçalhos */
+}
+
+/* Estilos para os cabeçalhos h1 e h2 */
+h1, h2 {
+    font-size: 25px; /* Define o tamanho da fonte para h1 e h2 como 25px */
+}

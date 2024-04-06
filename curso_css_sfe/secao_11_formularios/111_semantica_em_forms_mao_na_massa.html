@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="111_semantica_em_forms_mao_na_massa.css">
+    <title>Semântica em Forms</title>
+</head>
+<body>
+    <h1>Semântica em Forms</h1>
+    <!-- Utilize a tag form para envolver os campos do formulário -->
+    <form action="#" method="post">
+        <!-- Utilize a tag fieldset para agrupar os campos relacionados -->
+        <fieldset>
+            <!-- Utilize a tag legend para descrever o objetivo do grupo de campos -->
+            <legend>Dados de Login</legend>
+            <!-- Utilize a tag label para associar rótulos aos campos -->
+            <label for="user">Nome de Usuário:</label>
+            <!-- Adicione o atributo id ao input para associá-lo ao rótulo -->
+            <input type="text" id="user" name="user" required>
+            <label for="pass">Senha:</label>
+            <!-- Adicione o atributo id ao input para associá-lo ao rótulo -->
+            <input type="password" id="pass" name="pass" required>
+        </fieldset>
+        <!-- Utilize o input type="submit" dentro do formulário para enviar os dados -->
+        <input type="submit" value="Entrar">
+    </form>
+</body>
+</html>

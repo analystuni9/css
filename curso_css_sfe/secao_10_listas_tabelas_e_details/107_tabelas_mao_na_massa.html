@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Incluindo o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="107_tabelas_mao_na_massa.css">
+
+    <title>Tabelas</title>
+
+</head>
+
+<body>
+    <h1>Tabela 1</h1>
+    <!-- Tabela de preços de cursos -->
+    <table>
+        <!-- Título da tabela -->
+        <caption>Tabela de preços de cursos</caption>
+
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Curso</th>
+                <th>Investimento</th>
+            </tr>
+        </thead>
+
+        <!-- Corpo da tabela -->
+        <tbody>
+            <!-- Linha para os cursos de design -->
+            <tr>
+                <td rowspan="3">Desing</td> <!-- Célula para a área "Design" com rowspan 3 -->
+                <td>InDesign</td> <!-- Célula para o curso "InDesign" -->
+                <td>R$ 1.000,00</td> <!-- Célula para o investimento -->
+            </tr>
+
+            <!-- Segunda linha para os cursos de design -->
+            <tr>
+                <td>Photoshop</td> <!-- Célula para o curso "Photoshop" -->
+                <td>R$ 1.000,00</td> <!-- Célula para o investimento -->
+            </tr>
+
+            <!-- Terceira linha para os cursos de design -->
+            <tr>
+                <td>Illustrator</td> <!-- Célula para o curso "Illustrator" -->
+                <td>R$ 1.000,00</td> <!-- Célula para o investimento -->
+            </tr>
+
+            <!-- Linha para os cursos de desenvolvimento -->
+            <tr>
+                <td rowspan="4">Development</td> <!-- Célula para a área "Development" com rowspan 4 -->
+                <td>HTML</td> <!-- Célula para o curso "HTML" -->
+                <td>R$ 1.000,00</td> <!-- Célula para o investimento -->
+            </tr>
+
+            <!-- Segunda linha para os cursos de desenvolvimento -->
+            <tr>
+                <td>CSS</td> <!-- Célula para o curso "CSS" -->
+                <td>R$ 1.000,00</td> <!-- Célula para o investimento -->
+            </tr>
+
+            <!-- Terceira linha para os cursos de desenvolvimento -->
+            <tr>
+                <td>Javascript</td> <!-- Célula para o curso "Javascript" -->
+                <td>R$ 1.000,00</td> <!-- Célula para o investimento -->
+            </tr>
+
+            <!-- Quarta linha para os cursos de desenvolvimento -->
+            <tr>
+                <td>PHP</td> <!-- Célula para o curso "PHP" -->
+                <td>R$ 1.000,00</td> <!-- Célula para o investimento -->
+            </tr>
+        </tbody>
+
+        <!-- Rodapé da tabela -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeitos a alterações sem prévio aviso</td> <!-- Célula para o rodapé -->
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>

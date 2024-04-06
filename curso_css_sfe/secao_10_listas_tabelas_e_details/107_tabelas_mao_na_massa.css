@@ -1,0 +1,30 @@
+/* Define a fonte para o corpo do documento como uma fonte sans-serif genérica */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+caption {
+    font-size: 25px;
+    font-weight:bold;
+}
+/* Estilos para todas as tabelas */
+table {
+    width: 80%; /* Define a largura da tabela como 80% do contêiner pai */
+    margin: auto; /* Centraliza a tabela horizontalmente */
+    background-color: #f7f7f7; /* Define a cor de fundo da tabela */
+    border-collapse: collapse; /* Combina as bordas das células da tabela */
+}
+
+/* Estilos para cabeçalhos de tabela */
+th {
+    background-color: #4CAF50; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto do cabeçalho */
+    border: 2px solid #367d39; /* Define a cor da borda do cabeçalho */
+    padding: 16px; /* Adiciona preenchimento interno de 16px ao cabeçalho */
+}
+
+/* Estilos para células de tabela */
+td {
+    border: 2px solid #d3d3d3; /* Define a cor da borda das células */
+    text-align: center; /* Alinha o texto ao centro nas células */
+    padding: 10px; /* Adiciona preenchimento interno de 10px às células */
+}

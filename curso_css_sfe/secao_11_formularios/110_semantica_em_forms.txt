@@ -1,0 +1,27 @@
+Claro! Aqui estão todos os tipos de inputs com uma breve explicação para cada um:
+
+1. input[type="text"]: Este tipo de input é usado para coletar texto curto ou alfanumérico. Pode ser usado para inserir nomes, endereços, ou qualquer outra informação textual.
+
+2. input[type="password"]: Utilizado para senhas, este input mascara os caracteres digitados, substituindo-os por asteriscos ou pontos para garantir a privacidade do usuário.
+
+3. input[type="email"]: Projetado para coletar endereços de e-mail válidos. Normalmente, o navegador realiza algumas validações básicas, como verificar se o campo contém um "@" e um domínio válido.
+
+4. input[type="tel"]: Especificamente destinado a números de telefone. Este input pode permitir a entrada de números com ou sem formatação específica, dependendo da configuração do navegador ou do script associado.
+
+5. input[type="number"]: Utilizado para inserir números inteiros ou decimais. Alguns navegadores fornecem controles especiais (como setas para cima e para baixo) para facilitar a entrada de números.
+
+6. input[type="date"]: Usado para coletar datas. Ao clicar no campo, um calendário pode ser exibido para facilitar a seleção da data. Os formatos de data podem variar dependendo do navegador.
+
+7. input[type="time"]: Similar ao input de data, mas usado para coletar horas. Permite que o usuário insira um tempo específico, geralmente em formato de 24 horas.
+
+8. input[type="checkbox"]: Utilizado para coletar valores de opção múltipla. Cada caixa de seleção representa uma opção independente e o usuário pode selecionar uma ou mais opções.
+
+9. input[type="radio"]: Semelhante ao checkbox, mas é utilizado para coletar apenas uma escolha entre várias opções. Todas as opções são mutuamente exclusivas.
+
+10. input[type="file"]: Permite que o usuário selecione e faça upload de arquivos do seu dispositivo local para o servidor.
+
+11. input[type="submit"]: Este input é usado para enviar o formulário. Quando clicado, ele submete os dados do formulário para o servidor especificado no atributo `action`.
+
+12. textarea: Uma área de texto multi-linha que permite ao usuário inserir uma quantidade maior de texto do que um campo de texto simples. É útil para inserir comentários, descrições ou mensagens mais longas.
+
+Cada tipo de input tem seu propósito específico e é útil para coletar diferentes tipos de dados dos usuários em formulários da web.

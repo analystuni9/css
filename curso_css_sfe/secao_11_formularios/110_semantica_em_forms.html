@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica em Forms</title>
+</head>
+<body>
+    <h1>Formulário de Login</h1>
+    <link rel="stylesheet" href="110_semantica_em_forms.css">
+    <!-- Utilize a tag form para envolver os campos do formulário -->
+    <form action="processamento.php" method="POST">
+        <!-- Utilize a tag fieldset para agrupar os campos relacionados -->
+        <fieldset>
+            <!-- Utilize a tag legend para descrever o objetivo do grupo de campos -->
+            <legend>Dados de Login</legend>
+            <!-- Utilize a tag label para associar rótulos aos campos -->
+            <label for="user">Nome de Usuário:</label>
+            <!-- Adicione o atributo id ao input para associá-lo ao rótulo -->
+            <input type="text" name="username" id="user" placeholder="Digite seu nome de usuário" required>
+            <label for="pass">Senha:</label>
+            <!-- Adicione o atributo id ao input para associá-lo ao rótulo -->
+            <input type="password" name="password" id="pass" placeholder="Digite sua senha" required>
+        </fieldset>
+        <!-- Utilize o input type="submit" dentro do formulário para enviar os dados -->
+        <input type="submit" value="Entrar">
+    </form>
+</body>
+</html>
